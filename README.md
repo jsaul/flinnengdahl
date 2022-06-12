@@ -22,7 +22,7 @@ Python wrappers are automatically generated using SWIG.
 Examples
 --------
 
-'''
+```
 >>> import flinnengdahl
 >>> fe=flinnengdahl.FlinnEngdahl()
 >>> fe.name(50,10)
@@ -41,6 +41,6 @@ Examples
 >>> fe.setCategory("de")
 >>> fe.name(50,10)
 'Deutschland'
-'''
+```
 
 You get the picture.
