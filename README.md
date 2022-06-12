@@ -25,6 +25,11 @@ region numbering and should not be called "Flinn-Engdahl regions" any more.
 
 Simple Python wrappers are automatically generated using SWIG.
 
+Note that there are other Python modules available to compute Flinn-Engdahl regions,
+e.g. in [SeisComP](https://github.com/SeisComP) and [ObsPy](https://github.com/obspy).
+There is no reason not to use those, except in situations where the installation of
+a large software package is not feasible or if the translation feature is of interest.
+
 ## Examples
 
 ```
@@ -49,3 +54,10 @@ Simple Python wrappers are automatically generated using SWIG.
 ```
 
 You get the picture.
+
+## Reference
+
+J.B. Young, B.W. Presgrave, H. Aichele, D.A. Wiens, E.A. Flinn (1996),
+The Flinn-Engdahl Regionalisation Scheme: The 1995 revision.
+Physics of the Earth and Planetary Interiors, 96, pp 223-297.
+https://doi.org/10.1016/0031-9201(96)03141-X
