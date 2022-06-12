@@ -1,26 +1,31 @@
-flinnengdahl.py
-===============
+# flinnengdahl.py
 
-This is a lightweight and fast Python/C++ module to generate
-Flinn-Engdahl region numbers and names for any latitude, longitude
-pair.
+Lightweight, fast and configurable Python/C++ module to compute
+Flinn-Engdahl region numbers and names.
+
+## Author
+
+Joachim Saul, GFZ Potsdam
+
+## Motivation
 
 The goal is to have consistent and up-to-date region naming while
 preserving the original region numbering scheme. We added the
-ability to add arbitrary translations. An example translation table
-is included. By default, hardcoded names are used. The C++ code
+ability to use arbitrary translations. An example translation table
+is included. English region names are hardcoded as default and the C++ code
 defining the hardcoded names can easily be (re)generated from the
 translation table whenever needed.
 
-The codes are set up in a way that allows defining new cells,
+The codes are set up in a way that in theory allows defining new cells,
 provided they fit in the 1x1-degree cells. But remember that such
 modifications are then deviations from the "standard" Flinn-Engdahl
-region numbering.
+region numbering and should not be called "Flinn-Engdahl regions" any more.
 
-Python wrappers are automatically generated using SWIG.
+## Python
 
-Examples
---------
+Simple Python wrappers are automatically generated using SWIG.
+
+## Examples
 
 ```
 >>> import flinnengdahl
