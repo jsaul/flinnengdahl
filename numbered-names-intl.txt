@@ -1,0 +1,2318 @@
+# Spanisch region names taken from
+# https://es.wikipedia.org/wiki/Anexo:Regiones_Flinn-Engdahl
+# with minimal corrections.
+001 de Zentral-Alaska
+001 en Central Alaska
+001 es Centro de Alaska
+002 de Süd-Alaska
+002 en Southern Alaska
+002 es Sur de Alaska
+003 de Beringmeer
+003 en Bering Sea
+003 es Mar de Bering
+004 de Kommandeurinseln
+#004 en Commander Islands Region
+004 en Komandorsky Islands Region
+004 es Región de las Islas del Comandante
+005 de Nahe Inseln, Alëuten
+005 en Near Islands, Aleutian Islands
+# https://es.wikipedia.org/wiki/Islas_Near
+005 es Islas Near, Islas Aleutianas
+006 de Rat Islands, Alëuten
+006 en Rat Islands, Aleutian Islands
+006 es Islas Rat, Islas Aleutianas
+# https://de.wikipedia.org/wiki/Rat_Islands
+# Ratteninseln oder Rat Islands
+007 de Andreanof-Inseln, Alëuten
+007 en Andreanof Islands, Aleutian Islands
+007 es Islas Andreanof, Islas Aleutianas
+008 de Pribilof-Inseln, Alaska, und Umgebung
+008 en Pribilof Islands, Alaska Region
+008 es Región de las Islas Pribilof, Alaska
+009 de Fox Islands, Alëuten
+009 en Fox Islands, Aleutian Islands
+009 es Islas Fox, Islas Aleutianas
+# https://de.wikipedia.org/wiki/Fox_Islands_(Alaska)
+010 de Unimak-Insel, Alaska, und Umgebung
+010 en Unimak Island Region, Alaska
+010 es Región de la Isla Unimak, Alaska
+011 de Bristol Bay
+011 en Bristol Bay
+011 es Bahía de Bristol
+012 de Alaska-Halbinsel
+012 en Alaska Peninsula
+012 es Península de Alaska
+013 de Kodiak-Insel, Alaska, und Umgebung
+013 en Kodiak Island Region, Alaska
+013 es Región de la Isla Kodiak, Alaska
+014 de Kenai-Halbinsel, Alaska
+014 en Kenai Peninsula, Alaska
+014 es Península de Kenai, Alaska
+015 de Golf von Alaska
+015 en Gulf of Alaska
+015 es Golfo de Alaska
+016 de Südlich der Alëuten
+016 en South of Aleutian Islands
+016 es Al sur de las Islas Aleutianas
+017 de Südlich von Alaska
+017 en South of Alaska
+017 es Al sur de Alaska
+# https://en.wikipedia.org/wiki/Yukon
+018 de Südlicher Yukon, Kanada
+#018 en Southern Yukon, Canada
+018 en Southern Yukon Territory, Canada
+018 es Sur del Yukón, Canadá
+019 de Südost-Alaska
+019 en Southeastern Alaska
+019 es Sureste de Alaska
+020 de Vor der Küste von Südost-Alaska
+020 en Off Coast of Southeastern Alaska
+020 es Frente a las costas del sureste de Alaska
+021 de Westlich von Vancouver Island
+021 en West of Vancouver Island
+021 es Al oeste de la Isla de Vancouver
+022 de Haida-Gwaii und Umgebung
+#022 en Haida Gwaii Region
+022 en Queen Charlotte Islands Region
+022 es Región de Haida Gwaii
+023 de Britisch-Kolumbien, Kanada
+023 en British Columbia, Canada
+023 es Columbia Británica, Canadá
+024 de Alberta, Kanada
+024 en Alberta, Canada
+024 es Alberta, Canadá
+025 de Vancouver Island, Kanada, und Umgebung
+025 en Vancouver Island, Canada Region
+025 es Isla de Vancouver, Canadá
+026 de Vor der Küste von Washington
+026 en Off Coast of Washington
+026 es Frente a las costas de Washington
+027 de Washington, Küstenregion
+027 en Near Coast of Washington
+027 es Cerca de las costas de Washington
+028 de Washington-Oregon Grenzregion
+028 en Washington-Oregon Border Region
+028 es Región fronteriza de Washington y Oregón
+029 de Washington
+029 en Washington
+029 es Washington
+030 de Vor der Küste von Oregon
+030 en Off Coast of Oregon
+030 es Frente a las costas de Oregón
+031 de Oregon, Küstenregion
+031 en Near Coast of Oregon
+031 es Cerca de la costa de Oregón
+032 de Oregon
+032 en Oregon
+032 es Oregon
+033 de West-Idaho
+033 en Western Idaho
+033 es Oeste de Idaho
+034 de Vor der Küste von Nord-Kalifornien
+034 en Off Coast of Northern California
+034 es Frente a las costas del norte de California
+035 de Nord-Kalifornien, Küstenregion
+035 en Near Coast of Northern California
+035 es Cerca de las costas del norte de California
+036 de Nord-Kalifornien
+036 en Northern California
+036 es Norte de California
+037 de Nevada
+037 en Nevada
+037 es Nevada
+038 de Vor der Küste von Kalifornien
+038 en Off Coast of California
+038 es Frente a las costas de California
+039 de Zentral-Kalifornien
+039 en Central California
+039 es Centro de California
+040 de Kalifornien-Nevada Grenzregion
+040 en California-Nevada Border Region
+040 es Región fronteriza entre California y Nevada
+041 de Süd-Nevada
+041 en Southern Nevada
+041 es Sur de Nevada
+042 de West-Arizona
+042 en Western Arizona
+042 es Oeste de Arizona
+043 de Süd-Kalifornien
+043 en Southern California
+043 es Sur de California
+044 de Kalifornien-Arizona Grenzregion
+044 en California-Arizona Border Region
+044 es Región fronteriza entre California y Arizona
+045 de Kalifornien-Niederkalifornien Grenzregion
+045 en California-Baja California Border Region
+045 es Región fronteriza entre California y Baja California
+046 de Westliche Arizona-Sonora Grenzregion
+046 en Western Arizona-Sonora Border Region
+046 es Oeste de la región fronteriza entre Arizona y Sonora
+047 de Vor der Westküste von Niederkalifornien
+047 en Off West Coast of Baja California
+047 es Frente a la costa oeste de Baja California
+048 de Niederkalifornien, Mexiko
+048 en Baja California, Mexico
+048 es Baja California, México
+049 de Golf von Kalifornien
+049 en Gulf of California
+049 es Golfo de California
+050 de Sonora, Mexiko
+050 en Sonora, Mexico
+050 es Sonora, México
+051 de Vor der Küste von Zentralmexiko
+051 en Off Coast of Central Mexico
+051 es Frente a la costa del Centro de México
+052 de Zentralmexiko, Küstenregion
+052 en Near Coast of Central Mexico
+052 es Cerca de la costa del Centro de México
+053 de Revilla-Gigedo-Inseln
+053 en Revilla Gigedo Islands Region
+053 es Región de las Islas Revilla Gigedo
+054 de Vor der Küste von Jalisco, Mexiko
+054 en Off Coast of Jalisco, Mexico
+054 es Frente a las costas de Jalisco, México
+055 de Jalisco, Mexiko, Küstenregion
+055 en Near Coast of Jalisco, Mexico
+055 es Cerca de las costas de Jalisco, México
+056 de Michoacan, Mexiko, Küstenregion
+056 en Near Coast of Michoacan, Mexico
+056 es Cerca de las costas de Michoacán, México
+057 de Michoacan, Mexiko
+057 en Michoacan, Mexico
+057 es Michoacán, México
+058 de Guerrero, Mexiko, Küstenregion
+058 en Near Coast of Guerrero, Mexico
+058 es Cerca de las costas de Guerrero, México
+059 de Guerrero, Mexiko
+059 en Guerrero, Mexico
+059 es Guerrero, México
+060 de Oaxaca, Mexiko
+060 en Oaxaca, Mexico
+060 es Oaxaca, México
+061 de Chiapas, Mexiko
+061 en Chiapas, Mexico
+061 es Chiapas, México
+062 de Mexiko-Guatemala Grenzregion
+062 en Mexico-Guatemala Border Region
+062 es Región fronteriza entre México y Guatemala
+063 de Vor der Küste von Mexiko
+063 en Off Coast of Mexico
+063 es Frente a las costas de México
+064 de Vor der Küste von Michoacan, Mexiko
+064 en Off Coast of Michoacan, Mexico
+064 es Frente a las costas de Michoacán, México
+065 de Vor der Küste von Guerrero, Mexiko
+065 en Off Coast of Guerrero, Mexico
+065 es Frente a las costas de Guerrero, México
+066 de Oaxaca, Mexiko, Küstenregion
+066 en Near Coast of Oaxaca, Mexico
+066 es Cerca de la costa de Oaxaca, México
+067 de Vor der Küste von Oaxaca, Mexiko
+067 en Off Coast of Oaxaca, Mexico
+067 es Frente a las costas de Oaxaca, México
+068 de Vor der Küste von Chiapas, Mexiko
+068 en Off Coast of Chiapas, Mexico
+068 es Frente a las costas de Chiapas, México
+069 de Chiapas, Mexiko, Küstenregion
+069 en Near Coast of Chiapas, Mexico
+069 es Cerca de las costas de Chiapas, México
+070 de Guatemala
+070 en Guatemala
+070 es Guatemala
+071 de Guatemala, Küstenregion
+071 en Near Coast of Guatemala
+071 es Cerca de las costas de Guatemala
+072 de Honduras
+072 en Honduras
+072 es Honduras
+073 de El Salvador
+073 en El Salvador
+073 es El Salvador
+074 de Nicaragua, Küstenregion
+074 en Near Coast of Nicaragua
+074 es Cerca de las costas de Nicaragua
+075 de Nicaragua
+075 en Nicaragua
+075 es Nicaragua
+076 de Vor der Küste Zentralamerikas
+076 en Off Coast of Central America
+076 es Frente a las costas de América Central
+077 de Vor der Küste von Costa Rica
+077 en Off Coast of Costa Rica
+077 es Frente a las costas de Costa Rica
+078 de Costa Rica
+078 en Costa Rica
+078 es Costa Rica
+079 de Nördlich von Panama
+079 en North of Panama
+079 es Al norte de Panamá
+080 de Panama-Costa Rica Grenzregion
+080 en Panama-Costa Rica Border Region
+080 es Región fronteriza entre Panamá y Costa Rica
+081 de Panama
+081 en Panama
+081 es Panamá
+082 de Panama-Kolumbien Grenzregion
+082 en Panama-Colombia Border Region
+082 es Región fronteriza entre Panamá y Colombia
+083 de Südlich von Panama
+083 en South of Panama
+083 es Al sur de Panamá
+084 de Yucatan-Halbinsel, Mexiko
+084 en Yucatan Peninsula, Mexico
+084 es Península de Yucatán, México
+085 de Kuba und Umgebung
+085 en Cuba Region
+085 es Región de Cuba
+086 de Jamaika und Umgebung
+086 en Jamaica Region
+086 es Región de Jamaica
+087 de Haiti und Umgebung
+087 en Haiti Region
+087 es Región de Haití
+088 de Dominikanische Republik und Umgebung
+088 en Dominican Republic Region
+088 es Región de República Dominicana
+089 de Mona Passage
+089 en Mona Passage
+089 es Canal de Mona
+090 de Puerto Rico und Umgebung
+090 en Puerto Rico Region
+090 es Región de Puerto Rico
+091 de Jungferninseln
+091 en Virgin Islands
+091 es Islas Vírgenes
+092 de Inseln über dem Winde
+092 en Leeward Islands
+092 es Islas de Sotavento
+093 de Belize
+093 en Belize
+093 es Belice
+094 de Karibisches Meer
+094 en Caribbean Sea
+094 es Mar Caribe
+095 de Inseln unter dem Winde
+095 en Windward Islands
+095 es Islas de Barlovento
+096 de Nahe der Nordküste von Kolumbien
+096 en Near North Coast of Colombia
+096 es Cerca de la costa norte de Colombia
+097 de Venezuela, Küstenregion
+097 en Near Coast of Venezuela
+097 es Cerca de la costa de Venezuela
+098 de Trinidad
+098 en Trinidad
+098 es Trinidad
+099 de Nord-Kolumbien
+099 en Northern Colombia
+099 es Norte de Colombia
+100 de Maracaibosee, Venezuela
+100 en Lake Maracaibo, Venezuela
+100 es Lago Maracaibo, Venezuela
+101 de Venezuela
+101 en Venezuela
+101 es Venezuela
+102 de Nahe der Westküste von Kolumbien
+102 en Near West Coast of Colombia
+102 es Cerca de la costa oeste de Colombia
+103 de Kolumbien
+103 en Colombia
+103 es Colombia
+104 de Vor der Küste von Ecuador
+104 en Off Coast of Ecuador
+104 es Frente a las costas de Ecuador
+105 de Ecuador, Küstenregion
+105 en Near Coast of Ecuador
+105 es Cerca de las costas de Ecuador
+106 de Kolumbien-Ecuador Grenzregion
+106 en Colombia-Ecuador Border Region
+106 es Región fronteriza entre Colombia y Ecuador
+107 de Ecuador
+107 en Ecuador
+107 es Ecuador
+108 de Vor der Küste von Nord-Peru
+108 en Off Coast of Northern Peru
+108 es Frente a las costas del norte de Perú
+109 de Nord-Peru, Küstenregion
+109 en Near Coast of Northern Peru
+109 es Cerca de las costas del norte de Perú
+110 de Peru-Ecuador Grenzregion
+110 en Peru-Ecuador Border Region
+110 es Región fronteriza entre Perú y Ecuador
+111 de Nord-Peru
+111 en Northern Peru
+111 es Norte de Perú
+112 de Peru-Brasilien Grenzregion
+112 en Peru-Brazil Border Region
+112 es Región fronteriza entre Perú y Brasil
+113 de West-Brasilien
+113 en Western Brazil
+113 es Oeste de Brasil
+114 de Vor der Küste von Peru
+114 en Off Coast of Peru
+114 es Frente a las costas de Perú
+115 de Peru, Küstenregion
+115 en Near Coast of Peru
+115 es Cerca de las costas de Perú
+116 de Zentral-Peru
+116 en Central Peru
+116 es Centro de Perú
+117 de Süd-Peru
+117 en Southern Peru
+117 es Sur de Perú
+118 de Peru-Bolivien Grenzregion
+118 en Peru-Bolivia Border Region
+118 es Región fronteriza entre Perú y Bolivia
+119 de Nord-Bolivien
+119 en Northern Bolivia
+119 es Norte de Bolivia
+120 de Zentral-Bolivien
+120 en Central Bolivia
+120 es Centro de Bolivia
+121 de Vor der Küste von Nord-Chile
+121 en Off Coast of Northern Chile
+121 es Frente a las costas del norte de Chile
+122 de Nord-Chile, Küstenregion
+122 en Near Coast of Northern Chile
+122 es Cerca de las costas del norte de Chile
+123 de Nord-Chile
+123 en Northern Chile
+123 es Norte de Chile
+124 de Chile-Bolivien Grenzregion
+124 en Chile-Bolivia Border Region
+124 es Región fronteriza entre Chile y Bolivia
+125 de Süd-Bolivien
+125 en Southern Bolivia
+125 es Sureste de Bolivia
+126 de Paraguay
+126 en Paraguay
+126 es Paraguay
+127 de Chile-Argentinien Grenzregion
+127 en Chile-Argentina Border Region
+127 es Región fronteriza entre Chile y Argentina
+128 de Provinz Jujuy, Argentinien
+128 en Jujuy Province, Argentina
+128 es Jujuy, Argentina
+129 de Provinz Salta, Argentinien
+129 en Salta Province, Argentina
+129 es Salta, Argentina
+130 de Provinz Catamarca, Argentinien
+130 en Catamarca Province, Argentina
+130 es Catamarca, Argentina
+131 de Provinz Tucuman, Argentinien
+131 en Tucuman Province, Argentina
+131 es Tucumán, Argentina
+132 de Santiago Del Estero Prov., Argentinien
+132 en Santiago Del Estero Prov., Argentina
+132 es Santiago del Estero, Argentina
+133 de Nordost-Argentinien
+133 en Northeastern Argentina
+133 es Noreste de Argentina
+134 de Vor der Küste von Zentral-Chile
+134 en Off Coast of Central Chile
+134 es Frente a las costas del centro de Chile
+135 de Zentral-Chile, Küstenregion
+135 en Near Coast of Central Chile
+135 es Cerca de las costas del centro de Chile
+136 de Zentral Chile
+136 en Central Chile
+136 es Centro de Chile
+137 de Provinz San Juan, Argentinien
+137 en San Juan Province, Argentina
+137 es San Juan, Argentina
+138 de Provinz La Rioja, Argentinien
+138 en La Rioja Province, Argentina
+138 es La Rioja, Argentina
+139 de Provinz Mendoza, Argentinien
+139 en Mendoza Province, Argentina
+139 es Mendoza, Argentina
+140 de Provinz San Luis, Argentinien
+140 en San Luis Province, Argentina
+140 es San Luis, Argentina
+141 de Provinz Cordoba, Argentinien
+141 en Cordoba Province, Argentina
+141 es Córdoba, Argentina
+142 de Uruguay
+142 en Uruguay
+142 es Uruguay
+143 de Vor der Küste von Süd-Chile
+143 en Off Coast of Southern Chile
+143 es Frente a las costas del sur de Chile
+144 de Süd-Chile
+144 en Southern Chile
+144 es Sur de Chile
+145 de Süd-Chile-Argentinien Grenzregion
+145 en Southern Chile-Argentina Border Region
+145 es Región fronteriza entre Chile y Argentina
+146 de Süd-Argentinien
+146 en Southern Argentina
+146 es Sur de Argentina
+147 de Tierra del Fuego
+147 en Tierra Del Fuego
+147 es Tierra del Fuego
+148 de Falklandinseln und Umgebung
+148 en Falkland Islands Region
+148 es Región de las Islas Malvinas
+149 de Drake-Passage
+149 en Drake Passage
+149 es Pasaje de Drake
+150 de Scotiasee
+150 en Scotia Sea
+150 es Mar de Scotia
+151 de Südgeorgien Inselregion
+151 en South Georgia Island Region
+151 es Sur de la región de las Islas Georgia
+152 de Südgeorgischer Rücken
+152 en South Georgia Rise
+152 es Sur del la dorsal de Georgia
+153 de Südliche Sandwichinseln und Umgebung
+153 en South Sandwich Islands Region
+153 es Sur de la región de las Islas Sandwich del Sur
+154 de Südliche Shetlandinseln
+154 en South Shetland Islands
+154 es Sur de las Islas Shetland
+155 de Antarktische Halbinsel
+155 en Antarctic Peninsula
+155 es Península Antártica
+156 de Südwest-Atlantik
+156 en Southwestern Atlantic Ocean
+156 es Suroeste del océano Atlánticod
+157 de Weddellmeer
+157 en Weddell Sea
+157 es Mar de Weddell
+158 de Vor der Westküste der Nordinsel, Neuseeland
+158 en Off West Coast of North Island, New Zealand
+158 es Frente a las costas de la Isla Norte, Nueva Zelanda
+159 de Nordinsel, Neuseeland
+159 en North Island, New Zealand
+159 es Isla Norte, Nueva Zelanda
+160 de Vor der Ostküste der Nordinsel, Neuseeland
+160 en Off East Coast of North Island, New Zealand
+160 es Frente a la costa este de la Isla Norte, Nueva Zelanda
+161 de Vor der Westküste der Südinsel, Neuseeland
+161 en Off West Coast of South Island, New Zealand
+161 es Frente a la costa oeste de la Isla Sur, Nueva Zelanda
+162 de Südinsel, Neuseeland
+162 en South Island, New Zealand
+162 es Isla Sur, Nueva Zelanda
+163 de Cook Strait, Neuseeland
+163 en Cook Strait, New Zealand
+163 es Estrecho de Cook, Nueva Zelanda
+164 de Vor der Ostküste der Südinsel, Neuseeland
+164 en Off East Coast of South Island, New Zealand
+164 es Frente a la costa este de la Isla Sur, Nueva Zelanda
+165 de Nördlich der Macquarieinsel
+165 en North of Macquarie Island
+165 es Al norte de la Isla Macquarie
+166 de Auckland Islands, Neuseeland und Umgebung
+166 en Auckland Islands, New Zealand Region
+166 es Región de las Islas Auckland, Nueva Zelanda
+167 de Macquarieinsel und Umgebung
+167 en Macquarie Island Region
+167 es Región de la Isla Macquarie
+168 de Südlich von Neuseeland
+168 en South of New Zealand
+168 es Al sur de Nueva Zelanda
+169 de Region Samoa-Inseln
+169 en Samoa Islands Region
+169 es Región de las Islas Samoa
+170 de Samoa-Inseln
+170 en Samoa Islands
+170 es Islas Samoa
+171 de Südlich der Fidschi-Inseln
+171 en South of Fiji Islands
+171 es Al sur de las Islas Fiji
+172 de Westlich der Tonga-Inseln
+172 en West of Tonga Islands
+172 es Al oeste de las Islas Tonga
+173 de Tonga-Inseln
+173 en Tonga Islands
+173 es Islas Tonga
+174 de Region Tonga-Inseln
+174 en Tonga Islands Region
+174 es Región de las Islas Tonga
+175 de Südlich der Tonga-Inseln
+175 en South of Tonga Islands
+175 es Al sur de las Islas Tonga
+176 de Norden von Neuseeland
+176 en North of New Zealand
+176 es Al norte de Nueva Zelanda
+177 de Region Kermadec-Inseln
+177 en Kermadec Islands Region
+177 es Región de las Islas Kermadec
+178 de Kermadec-Inseln, Neuseeland
+178 en Kermadec Islands, New Zealand
+178 es Islas Kermadec, Nueva Zelanda
+179 de Südlich der Kermadec-Inseln
+179 en South of Kermadec Islands
+179 es Al sur de las Islas Kermadec
+180 de Nördlich der Fidschi-Inseln
+180 en North of Fiji Islands
+180 es Al norte de las islas Fiji
+181 de Region Fidschi-Inseln
+181 en Fiji Islands Region
+181 es Región de las Islas Fiji
+182 de Fidschi-Inseln
+182 en Fiji Islands
+182 es Islas Fiji
+183 de Santa-Cruz-Inseln und Umgebung
+183 en Santa Cruz Islands Region
+183 es Región de las Islas Cruz
+184 de Santa-Cruz-Inseln
+184 en Santa Cruz Islands
+184 es Islas Santa Cruz
+185 de Vanuatu-Inseln und Umgebung
+185 en Vanuatu Islands Region
+185 es Región de las Islas Vanuatu
+186 de Vanuatu-Inseln
+186 en Vanuatu Islands
+186 es Islas Vanuatu
+187 de Neukaledonien
+187 en New Caledonia
+187 es Nueva Caledonia
+188 de Treueinseln
+188 en Loyalty Islands
+188 es Islas Loyalty
+189 de Südöstlich der Loyalitätsinseln
+189 en Southeast of Loyalty Islands
+189 es Sureste de las Islas Loyalty
+190 de Neuirland, Papua Neuguinea, und Umgebung
+190 en New Ireland Region, Papua New Guinea
+190 es Región de las Islas de Nueva Irlanda, Papúa Nueva Guinea
+191 de Nördlich der Salomon-Inseln
+191 en North of Solomon Islands
+191 es Al norte de las Islas Solomon
+192 de Region Neubritannien, Papua Neuguinea
+192 en New Britain Region, Papua New Guinea
+192 es Región de Nueva Bretaña, Papúa Nueva Guinea
+# https://de.wikipedia.org/wiki/Neubritannien
+193 de Salomon-Inseln
+193 en Solomon Islands
+193 es Islas Solomon
+# https://de.wikipedia.org/wiki/Salomonen
+194 de D'Entrecasteaux-Inseln und Umgebung
+194 en D'Entrecasteaux Islands Region
+194 es Región de las Islas D'Entrecasteaux
+195 de Südlich der Salomon-Inseln
+195 en South of Solomon Islands
+195 es Al sur de las Islas Solomon
+196 de Region Westpapua, Indonesien
+#196 en West Papua Region, Indonesia
+196 en Irian Jaya Region, Indonesia
+196 es Región de Irian Jaya, Indonesia
+# nice: http://agung-sabtaji.blogspot.com/2012/02/flinn-engdahl-region-di-indonesia.html
+197 de Nahe der Nordküste von Westpapua, Indonesien
+#197 en Near North Coast of West Papua, Indonesia
+197 en Near North Coast of Irian Jaya
+197 es Cerca de la costa norte de Irian Jaya
+198 de Ninigo-Inseln und Umgebung, Papua-Neuguinea
+198 en Ninigo Islands Region, Papua New Guinea
+198 es Región de las Islas Ninigo, Papúa Nueva Guinea
+199 de Admiralitätsinseln und Umgebung, Papua-Neuguinea
+199 en Admiralty Islands Region, Papua New Guinea
+199 es Región de las Islas Admiralty, Papúa Nueva Guinea
+200 de Nahe der Nordküste von Neuguinea, Papua-Neuguinea
+200 en Near North Coast of New Guinea, Papua New Guinea
+200 es Cerca de la costa norte de Nueva Guinea, Papúa Nueva Guinea
+201 de Westpapua, Indonesien
+#201 en West Papua, Indonesia
+201 en Irian Jaya, Indonesia
+201 es Irian Jaya, Indonesia
+# https://de.wikipedia.org/wiki/Papua_(Provinz)
+# Irian Jaya heißt jetzt Papua!
+202 de Papua-Neuguinea
+202 en New Guinea, Papua New Guinea
+202 es Nueva Guinea, Papúa Nueva Guinea
+203 de Bismarcksee
+203 en Bismarck Sea
+203 es Mar de Bismarck
+204 de Aru-Inseln, Indonesien
+204 en Aru Islands Region, Indonesia
+204 es Región de las Islas Aru, Indonesia
+205 de Nahe der Südküste von Westpapua
+#205 en Near South Coast of West Papua, Indonesia
+205 en Near South Coast of Irian Jaya
+205 es Cerca de la costa sur de Irian Jaya
+206 de Nahe der Südküste von Neuguinea, Papua-Neuguinea
+206 en Near South Coast of New Guinea, Papua New Guinea
+206 es Cerca de la costa sur de Nueva Guinea, Papúa Nueva Guinea
+207 de Papua-Neuguinea und Umgebung
+#207 en Papua New Guinea Region
+207 en Eastern New Guinea Region, Papua New Guinea
+207 es Este de la región de Nueva Guinea, Papúa Nueva Guinea
+208 de Arafurasee
+208 en Arafura Sea
+208 es Mar de Arafura
+209 de Westliche Karolineninseln, Mikronesien
+209 en Western Caroline Islands, Micronesia
+209 es Oeste de las Islas Caroline, Micronesia
+210 de Südlich der Marianen
+210 en South of Mariana Islands
+210 es Al sur de las Islas Mariana
+211 de Südöstlich von Honschu, Japan
+211 en Southeast of Honshu, Japan
+211 es Sudeste de Honshu, Japón
+212 de Bonin-Inseln, Japan, und Umgebung
+212 en Bonin Islands, Japan Region
+212 es Región de las Islas Bonin, Japón
+213 de Vulkaninseln, Japan, und Umgebung
+213 en Volcano Islands, Japan Region
+213 es Región de las Islas Volcán, Japón
+214 de Westlich der Marianen
+214 en West of Mariana Islands
+214 es Al oeste de las Islas Mariana
+215 de Mariana-Inseln und Umgebung
+215 en Mariana Islands Region
+215 es Región de las Islas Mariana
+216 de Marianen
+216 en Mariana Islands
+216 es Islas Mariana
+217 de Halbinsel Kamtschatka, Russland
+217 en Kamchatka Peninsula, Russia
+217 es Península de Kamchatka, Rusia
+218 de Nahe der Ostküste von Kamtschatka
+218 en Near East Coast of Kamchatka
+218 es Cerca de la costa este de Kamchatka
+219 de Vor der Ostküste von Kamtschatka
+219 en Off East Coast of Kamchatka
+219 es Frente a la costa este de Kamchatka
+220 de Nordwestlich der Kurilen
+220 en Northwest of Kuril Islands
+220 es Al noroeste de las Islas Kuriles
+221 de Kurilen
+221 en Kuril Islands
+221 es Islas Kuriles
+222 de Östlich der Kurilen
+222 en East of Kuril Islands
+222 es Al este de las Islas Kuriles
+223 de Östliches Japanisches Meer
+223 en Eastern Sea of Japan
+223 es Este del mar de Japón
+224 de Hokkaido, Japan und Umgebung
+224 en Hokkaido, Japan Region
+224 es Región de Hokkaido, Japón
+225 de Vor der Küste von Hokkaido, Japan
+225 en Off Coast of Hokkaido, Japan
+225 es Frente a las costas de Hokkaido, Japón
+226 de Nahe der Westküste von Honschu, Japan
+226 en Near West Coast of Honshu, Japan
+226 es Cerca de la costa oeste de Honshu, Japón
+227 de Ost-Honschu, Japan
+227 en Eastern Honshu, Japan
+227 es Este de Honshu, Japón
+228 de Nahe der Ostküste von Honschu, Japan
+228 en Near East Coast of Honshu, Japan
+228 es Cerca de la costa este de Honshu, Japón
+229 de Vor der Ostküste von Honschu, Japan
+229 en Off East Coast of Honshu, Japan
+229 es Frente a la costa este de Honshu, Japón
+230 de Nahe der Südküste von Honschu, Japan
+230 en Near South Coast of Honshu, Japan
+230 es Cerca de la costa sur de Honshu, Japón
+231 de Südkorea
+231 en South Korea
+231 es Corea del Sur
+232 de West-Honschu, Japan
+232 en Western Honshu, Japan
+232 es Oeste de Honshu, Japón
+233 de Nahe der Südküste von West-Honschu
+233 en Near South Coast of Western Honshu
+233 es Cerca de la costa sur del oeste de Honshu
+234 de Nordwestlich der Ryukyu-Inseln
+234 en Northwest of Ryukyu Islands
+234 es Al noroeste de las Islas Ryukyu
+235 de Kyuschu, Japan
+235 en Kyushu, Japan
+235 es Kyushu, Japón
+236 de Shikoku, Japan
+236 en Shikoku, Japan
+236 es Shikoku, Japón
+237 de Südöstlich von Shikoku, Japan
+237 en Southeast of Shikoku, Japan
+237 es Al sudeste de Shikoku, Japón
+238 de Ryukyu-Inseln, Japan
+238 en Ryukyu Islands, Japan
+238 es Islas Ryukyu, Japón
+239 de Südöstlich der Ryukyu-Inseln
+239 en Southeast of Ryukyu Islands
+239 es Al sudeste de las Islas Ryukyu
+240 de Westlich der Bonin-Inseln
+240 en West of Bonin Islands
+240 es Al oeste de las Islas Bonin
+241 de Philippinisches Meer
+241 en Philippine Sea
+241 es Mar de las Filipinas
+242 de Südost-China, Küstenregion
+242 en Near Coast of Southeastern China
+242 es Cerca de la costa del sudeste de China
+243 de Taiwan Umgebung
+243 en Taiwan Region
+243 es Región de Taiwán
+244 de Taiwan
+244 en Taiwan
+244 es Taiwán
+245 de Nordosten von Taiwan
+245 en Northeast of Taiwan
+245 es Al noreste de Taiwán
+246 de Südwestliche Ryukyu-Insel, Japan
+246 en Southwestern Ryukyu Islands, Japan
+246 es Suroeste de las Islas Ryukyu, Japón
+247 de Südöstlich von Taiwan
+247 en Southeast of Taiwan
+247 es Al sureste de Taiwán
+248 de Philippinische Inselregion
+248 en Philippine Islands Region
+248 es Región de las Islas Filipinas
+249 de Luzon, Philippinen
+249 en Luzon, Philippines
+249 es Luzón, Filipinas
+250 de Mindoro, Philippinen
+250 en Mindoro, Philippines
+250 es Mindoro, Filipinas
+251 de Samar, Philippinen
+251 en Samar, Philippines
+251 es Samar, Filipinas
+252 de Palawan, Philippinen
+252 en Palawan, Philippines
+252 es Palawan, Filipinas
+253 de Sulusee
+253 en Sulu Sea
+253 es Mar de Sulu
+254 de Panay, Philippinen
+254 en Panay, Philippines
+254 es Panay, Filipinas
+255 de Cebu, Philippinen
+255 en Cebu, Philippines
+255 es Cebú, Filipinas
+256 de Leyte, Philippinen
+256 en Leyte, Philippines
+256 es Leyte, Filipinas
+257 de Negros, Philippinen
+257 en Negros, Philippines
+257 es Negros, Filipinas
+258 de Sulu-Archipel, Philippinen
+258 en Sulu Archipelago, Philippines
+258 es Archipiélago de Sulu, Filipinas
+259 de Mindanao, Philippinen
+259 en Mindanao, Philippines
+259 es Mindanao, Filipinas
+260 de Östlich der Philippinischen Inseln
+260 en East of Philippine Islands
+260 es Al este de las Islas Filipinas
+261 de Borneo
+261 en Borneo
+261 es Borneo
+262 de Celebessee
+262 en Celebes Sea
+262 es Mar de Celebes
+263 de Talaud-Inseln, Indonesien
+263 en Talaud Islands, Indonesia
+263 es Islas Talaud, Indonesia
+264 de Nördlich von Halmahera, Indonesien
+264 en North of Halmahera, Indonesia
+264 es Al norte de Halmahera, Indonesia
+265 de Halbinsel Minahassa, Sulawesi
+265 en Minahassa Peninsula, Sulawesi
+265 es Península de Minahassa, Sulawesi
+266 de Nördliche Molukkensee
+266 en Northern Molucca Sea
+266 es Norte del mar de Molucas
+267 de Halmahera, Indonesien
+267 en Halmahera, Indonesia
+267 es Halmahera, Indonesia
+268 de Sulawesi, Indonesien
+268 en Sulawesi, Indonesia
+268 es Sulawesi, Indonesia
+269 de Südliche Molukkensee
+269 en Southern Molucca Sea
+269 es Sur del mar de Moluca
+270 de Seramsee
+270 en Ceram Sea
+270 es Mar de Ceram
+271 de Buru, Indonesien
+271 en Buru, Indonesia
+271 es Buru, Indonesia
+272 de Seram, Indonesien
+272 en Seram, Indonesia
+272 es Seram, Indonesia
+273 de Südwestlich von Sumatra, Indonesien
+273 en Southwest of Sumatra, Indonesia
+273 es Al suroeste de Sumatera, Indonesia
+274 de Süd-Sumatra, Indonesien
+274 en Southern Sumatra, Indonesia
+274 es Sur de Sumatera, Indonesia
+275 de Javasee
+275 en Java Sea
+275 es Mar de Java
+276 de Sunda Strait, Indonesien
+276 en Sunda Strait, Indonesia
+276 es Sunda Strait, Indonesia
+277 de Java, Indonesien
+277 en Java, Indonesia
+277 es Java, Indonesia
+278 de Balisee
+278 en Bali Sea
+278 es Mar de Bali
+279 de Floressee
+279 en Flores Sea
+279 es Mar de Flores
+280 de Bandasee
+280 en Banda Sea
+280 es Mar de Banda
+281 de Tanimbarinseln, Indonesien und Umgebung
+281 en Tanimbar Islands Region, Indonesia
+281 es Región de las Islas Tanimbar, Indonesia
+282 de Südlich von Java, Indonesien
+282 en South of Java, Indonesia
+282 es Al sur de Java, Indonesia
+283 de Bali, Indonesien, und Umgebung
+283 en Bali Region, Indonesia
+283 es Región de Bali, Indonesia
+284 de Südlich von Bali, Indonesien
+284 en South of Bali, Indonesia
+284 es Al sur de Bali, Indonesia
+285 de Sumbawa, Indonesien
+285 en Sumbawa Region, Indonesia
+285 es Región de Sumbawa, Indonesia
+286 de Flores, Indonesien
+286 en Flores Region, Indonesia
+286 es Región de Flores, Indonesia
+287 de Sumba-Region, Indonesien
+287 en Sumba Region, Indonesia
+287 es Región de Sumba, Indonesia
+288 de Savusee
+288 en Savu Sea
+288 es Mar de Savu
+289 de Timor-Region
+289 en Timor Region
+289 es Región de Timor
+290 de Timorsee
+290 en Timor Sea
+290 es Mar de Timor
+291 de Südlich von Sumbawa, Indonesien
+291 en South of Sumbawa, Indonesia
+291 es Al sur de Sumbawa, Indonesia
+292 de Südlich von Sumba, Indonesien
+292 en South of Sumba, Indonesia
+292 es Al sur de Sumba, Indonesia
+293 de Südlich von Timor, Indonesien
+293 en South of Timor, Indonesia
+293 es Al sur de Timor, Indonesia
+294 de Myanmar-Indien Grenzregion
+294 en Myanmar-India Border Region
+294 es Región fronteriza entre Myanmar y la India
+295 de Myanmar-Bangladesch Grenzregion
+295 en Myanmar-Bangladesh Border Region
+295 es Región fronteriza entre Myanmar y Bangladés
+296 de Myanmar
+296 en Myanmar
+296 es Myanmar
+297 de Myanmar-China Grenzregion
+297 en Myanmar-China Border Region
+297 es Región fronteriza entre Myanmar y China
+298 de Nahe der Südküste von Myanmar
+298 en Near South Coast of Myanmar
+298 es Cerca de la costa sur de Myanmar
+299 de Südostasien
+299 en Southeast Asia
+299 es Asia Sudoriental
+300 de Insel Hainan, China
+300 en Hainan Island, China
+300 es Isla de Hainan, China
+301 de Südchinesisches Meer
+301 en South China Sea
+301 es Sur del mar de China
+302 de Ost-Kaschmir
+302 en Eastern Kashmir
+302 es Este de Kashmir
+303 de Grenzregion Kaschmir-Indien
+303 en Kashmir-India Border Region
+303 es Región fronteriza entre Kashmir y la India
+304 de Kaschmir-Tibet Grenzregion
+304 en Kashmir-Xizang Border Region
+304 es Región fronteriza entre Kashmir y Xizang
+305 de Westliche Tibet-Indien Grenzregion
+305 en Western Xizang-India Border Region
+305 es Oeste de la región fronteriza entre el oeste de Xizang y la India
+306 de Tibet
+306 en Xizang
+306 es Xizang
+307 de Sichuan, China
+307 en Sichuan, China
+307 es Sichuan, China
+308 de Nord-Indien
+308 en Northern India
+308 es Norte de India
+309 de Nepal-Indien Grenzregion
+309 en Nepal-India Border Region
+309 es Región fronteriza entre Nepal y la India
+310 de Nepal
+310 en Nepal
+310 es Nepal
+311 de Sikkim, Indien
+311 en Sikkim, India
+311 es Sikkim, India
+312 de Bhutan
+312 en Bhutan
+312 es Bután
+313 de Östliche Tibet-Indien Grenzregion
+313 en Eastern Xizang-India Border Region
+313 es Este de la región fronteriza entre Xizang y la India
+# https://de.wikipedia.org/wiki/Autonomes_Gebiet_Tibet
+314 de Süd-Indien
+314 en Southern India
+314 es Sur de la India
+315 de Indien-Bangladesch Grenzregion
+315 en India-Bangladesh Border Region
+315 es Región fronteriza entre la India y Bangladés
+316 de Bangladesch
+316 en Bangladesh
+316 es Bangladés
+317 de Nordost-Indien
+317 en Northeastern India
+317 es Noreste de la India
+318 de Yunnan, China
+318 en Yunnan, China
+318 es Yunnan, China
+319 de Bucht von Bengalen
+319 en Bay of Bengal
+319 es Bahía de Bengal
+320 de Kirgisistan-Xinjiang Grenzregion
+320 en Kyrgyzstan-Xinjiang Border Region
+320 es Región fronteriza entre Kirguistán y Xinjiang
+# https://de.wikipedia.org/wiki/Kirgisistan
+321 de Südliches Xinjiang, China
+321 en Southern Xinjiang, China
+321 es Sudeste de Xinjiang, China
+322 de Gansu, China
+322 en Gansu, China
+322 es Gansu, China
+323 de Westliche Innere Mongolei, China
+323 en Western Nei Mongol, China
+323 es Oeste de Nei Mongol, China
+324 de Kaschmir-Xinjiang Grenzregion
+324 en Kashmir-Xinjiang Border Region
+324 es Región fronteriza entre Kashmir y Xinjiang
+325 de Qinghai, China
+325 en Qinghai, China
+325 es Qinghai, China
+326 de Südwestl-Sibirien, Russland
+326 en Southwestern Siberia, Russia
+326 es Sudoeste de Siberia, Rusia
+327 de Region Baykalsee, Russland
+327 en Lake Baykal Region, Russia
+327 es Región del lago Baykal, Rusia
+328 de Östlich des Baykalsees, Russland
+328 en East of Lake Baykal, Russia
+328 es Al este del lago Baykal, Rusia
+329 de Ost-Kasachstan
+329 en Eastern Kazakhstan
+329 es Este de Kazakhstan
+330 de Region Issyk-Kul-See
+330 en Lake Issyk-Kul Region
+330 es Región del lago Issyk-Kul
+331 de Kasachstan-Xinjiang Grenzregion
+331 en Kazakhstan-Xinjiang Border Region
+331 es Región fronteriza entre Kazakhstan y Xinjiang
+332 de Nord-Xinjiang, China
+332 en Northern Xinjiang, China
+332 es Norte de Xinjiang, China
+333 de Russland-Mongolei Grenzregion
+333 en Russia-Mongolia Border Region
+333 es Región fronteriza entre Rusia y Mongolia
+334 de Mongolei
+334 en Mongolia
+334 es Mongolia
+335 de Uralgebirge, Russland
+335 en Ural Mountains Region, Russia
+335 es Región de los Montes Urales, Rusia
+336 de West-Kasachstan
+336 en Western Kazakhstan
+336 es Oeste de Kazakhstan
+337 de Ost-Kaukasus
+337 en Eastern Caucasus
+337 es Este del Caucaso
+338 de Kaspipensee
+338 en Caspian Sea
+338 es Mar Caspio
+339 de Nordwest-Usbekistan
+339 en Northwestern Uzbekistan
+339 es Noroeste de Uzbekistán
+340 de Turkmenistan
+340 en Turkmenistan
+340 es Turkmenistán
+341 de Turkmenistan-Iran Grenzregion
+341 en Turkmenistan-Iran Border Region
+341 es Región fronteriza entre Turkmenistán e Irán
+342 de Turkmenistan-Afghanistan Grenzregion
+342 en Turkmenistan-Afghanistan Border Region
+342 es Región fronteriza entre Turkmenistán y Afganistán
+343 de Türkei-Iran Grenzregion
+343 en Turkey-Iran Border Region
+343 es Región fronteriza entre Turquía e Irán
+344 de Armenien-Aserbaidschan-Iran Grenzregion
+344 en Armenia-Azerbaijan-Iran Border Region
+344 es Región fronteriza entre Armenia, Azerbaiyán e Irán
+345 de Nordwest-Iran
+345 en Northwestern Iran
+345 es Noroeste de Irán
+346 de Iran-Irak Grenzregion
+346 en Iran-Iraq Border Region
+346 es Región fronteriza entre Irán e Iraq
+347 de West-Iran
+347 en Western Iran
+347 es Oeste de Irán
+348 de Nord- und Zentraliran
+348 en Northern and Central Iran
+348 es Norte y Centro de Irán
+349 de Nordwest-Afghanistan
+349 en Northwestern Afghanistan
+349 es Noroeste de Afganistán
+350 de Südwest-Afghanistan
+350 en Southwestern Afghanistan
+350 es Suroeste de Afganistán
+351 de Östliche Arabische Halbinsel
+351 en Eastern Arabian Peninsula
+351 es Este de la Península de Arabia
+352 de Persianischer Golf
+352 en Persian Gulf
+352 es Golfo de Persia
+353 de Süd-Iran
+353 en Southern Iran
+353 es Sur de Irán
+354 de Südwest-Pakistan
+354 en Southwestern Pakistan
+354 es Suroeste de Pakistán
+355 de Golf von Oman
+355 en Gulf of Oman
+355 es Golfo de Omán
+356 de Vor der Küste Pakistans
+356 en Off Coast of Pakistan
+356 es Frente a las costas de Pakistán
+357 de Ukraine-Moldawien-Südwestrussland
+357 en Ukraine-Moldova-Southwestern Russia Region
+357 es Región de Ucrania, Moldavia y el sudoeste de Rusia
+358 de Rumänien
+358 en Romania
+358 es Romania
+359 de Bulgarien
+359 en Bulgaria
+359 es Bulgaria
+360 de Schwarzes Meer
+360 en Black Sea
+360 es Mar Negro
+361 de Krim, Ukraine, und Umgebung
+361 en Crimea Region, Ukraine
+361 es Región de Crimea, Ucrania
+362 de Nordwest-Kaukasus
+362 en Northwestern Caucasus
+362 es Oeste del Caucaso
+363 de Griechenland-Bulgarien Grenzregion
+363 en Greece-Bulgaria Border Region
+363 es Región fronteriza entre Grecia y Bulgaria
+364 de Griechenland
+364 en Greece
+364 es Grecia
+365 de Aegean-See
+365 en Aegean Sea
+365 es Mar Egeo
+366 de Türkei
+366 en Turkey
+366 es Turquía
+367 de Georgien-Armenien-Türkei Grenzregion
+367 en Georgia-Armenia-Turkey Border Region
+367 es Región fronteriza entre Georgia, Armenia y Turquía
+368 de Süd-Griechenland
+368 en Southern Greece
+368 es Sur de Grecia
+369 de Dodekanes-Inseln, Griechenland
+369 en Dodecanese Islands, Greece
+369 es Islas Dodecanese, Grecia
+# https://de.wikipedia.org/wiki/Liste_der_Dodekanes-Inseln
+370 de Kreta, Griechenland
+370 en Crete, Greece
+370 es Creta, Grecia
+371 de Östliches Mittelmeer
+371 en Eastern Mediterranean Sea
+371 es Este del Mar Mediterráneo
+372 de Zypern und Umgebung
+372 en Cyprus Region
+372 es Región de Chipre
+373 de Totes Meer und Umgebung
+373 en Dead Sea Region
+373 es Región del Mar Muerto
+374 de Jordanien, Syrien und Umgebung
+374 en Jordan-Syria Region
+374 es Región de Jordania y Siria
+375 de Irak
+375 en Iraq
+375 es Iraq
+376 de Portugal
+376 en Portugal
+376 es Portugal
+377 de Spanien
+377 en Spain
+377 es España
+378 de Pyrenees
+378 en Pyrenees
+378 es Pirineos
+379 de Nahe der südfranzösischen Küste
+379 en Near South Coast of France
+379 es Cerca de la costa sur de Francia
+380 de Korsika, Frankreich
+380 en Corsica, France
+380 es Corsica, Francia
+381 de Mittelitalien
+381 en Central Italy
+381 es Centro de Italia
+# https://de.wikipedia.org/wiki/Mittelitalien
+382 de Adriatisches Meer
+382 en Adriatic Sea
+382 es Mar Adriático
+383 de Nordwestlicher Balkan
+383 en Northwestern Balkan Region
+383 es Noroeste de la Península Balcánica
+384 de Westlich von Gibraltar
+384 en West of Gibraltar
+384 es Al oeste de Gibraltar
+385 de Meerenge von Gibraltar
+385 en Strait of Gibraltar
+385 es Estrecho de Gibraltar
+386 de Balearische Inseln, Spanien
+386 en Balearic Islands, Spain
+386 es Islas Baleares, España
+387 de Westliches Mittelmeer
+387 en Western Mediterranean Sea
+387 es Oeste del Mar Mediterráneo
+388 de Sardinien, Italien
+388 en Sardinia, Italy
+388 es Sardinia, Italia
+389 de Tyrrhenisches Meer
+389 en Tyrrhenian Sea
+389 es Mar Tirreno
+390 de Süditalien
+390 en Southern Italy
+390 es Sur de Italia
+391 de Albanien
+391 en Albania
+391 es Albania
+392 de Griechenland-Albanien Grenzregion
+392 en Greece-Albania Border Region
+392 es Región fronteriza entre Grecia y Albania
+393 de Madeira-Inseln, Portugal, und Umgebung
+393 en Madeira Islands, Portugal Region
+393 es Región de las Islas Madeira, Portugal
+394 de Kanarische Inseln, Spanien, und Umgebung
+394 en Canary Islands, Spain Region
+394 es Islas Canarias, España
+395 de Marokko
+395 en Morocco
+395 es Marruecos
+396 de Nord-Algerien
+396 en Northern Algeria
+396 es Norte de Algeria
+397 de Tunesien
+397 en Tunisia
+397 es Tunisia
+398 de Sizilien, Italien
+398 en Sicily, Italy
+398 es Sicilia, Italia
+399 de Ionisches Meer
+399 en Ionian Sea
+399 es Mar Jónico
+400 de Zentrales Mittelmeer
+400 en Central Mediterranean Sea
+400 es Centro del Mar Mediterráneo
+401 de Libyen, Küstenregion
+401 en Near Coast of Libya
+401 es Cerca de la Costa de Libia
+402 de Nordatlantik
+402 en North Atlantic Ocean
+402 es Norte del Océano Atlántico
+# https://de.wikipedia.org/wiki/Nordatlantik
+403 de Nördlicher Mittelatlantischer Rücken
+403 en Northern Mid-Atlantic Ridge
+403 es Norte de la Dorsal Mesoatlántica
+404 de Azoren
+404 en Azores Islands Region
+404 es Región de las Islas Azores
+405 de Azoren, Portugal
+405 en Azores Islands, Portugal
+405 es Islas Azores, Portugal
+406 de Zentraler Mittelatlantischer Rücken
+406 en Central Mid-Atlantic Ridge
+406 es Centro de la dorsal mesoatlántica
+407 de Nördlich der Ascension-Insel
+407 en North of Ascension Island
+407 es Al norte de la Isla Ascensión
+408 de Ascension-Insel und Umgebung
+408 en Ascension Island Region
+408 es Región de la Isla Ascensión
+409 de Südatlantik
+409 en South Atlantic Ocean
+409 es Sur del Océano Atlántico
+# https://de.wikipedia.org/wiki/S%C3%BCdatlantik
+410 de Südlicher Mittelatlantischer Rücken
+410 en Southern Mid-Atlantic Ridge
+410 es Sur de la Cordillera Mesoatlántica
+411 de Tristan Da Cunha und Umgebung
+411 en Tristan Da Cunha Region
+411 es Región Tristán de Acuña
+412 de Bouvetinsel und Umgebung
+412 en Bouvet Island Region
+412 es Isla Bouvet
+413 de Südwestlich von Afrika
+413 en Southwest of Africa
+413 es Al sudoeste de África
+414 de Südost-Atlantik
+414 en Southeastern Atlantic Ocean
+414 es Sudeste del Océano Atlántico
+415 de Östlicher Golf von Aden
+415 en Eastern Gulf of Aden
+415 es Este del Golfo de Aden
+416 de Socotra und Umgebung
+416 en Socotra Region
+416 es Región de Socotra
+417 de Arabisches Meer
+417 en Arabian Sea
+417 es Mar de Arabia
+418 de Lakshadweep-Region, Indien
+418 en Lakshadweep Region, India
+418 es Región de Laquedivas, India
+419 de Nordost-Somalia
+419 en Northeastern Somalia
+419 es Noreste de Somalía
+420 de Nördlicher Indischer Ozean
+420 en North Indian Ocean
+420 es Norte del Océano Índico
+# nicht Nordindischer Ozean!
+421 de Carlsberg-Rücken
+421 en Carlsberg Ridge
+421 es Dorsal Arábigo-Índica
+422 de Malediven und Umgebung
+422 en Maldive Islands Region
+422 es Región de las Islas Malvidas
+423 de Lakkadivensee
+423 en Laccadive Sea
+423 es Mar de Laquedivas
+424 de Sri Lanka
+424 en Sri Lanka
+424 es Sri Lanka
+425 de Südlicher Indischer Ozean
+425 en South Indian Ocean
+425 es Sur del Océano Índico
+426 de Chagos-Archipel und Umgebung
+426 en Chagos Archipelago Region
+426 es Archipiélago de Chagos
+427 de Mauritius, Reunion und Umgebung
+427 en Mauritius-Reunion Region
+427 es Región Mauritania y Réunion
+428 de Südwestindischer Rücken
+428 en Southwest Indian Ridge
+428 es Suroeste de la Cordillera Índica
+429 de Mittelindischer Rücken
+429 en Mid-Indian Ridge
+429 es Centro de la Cordillera Índica
+430 de Südlich von Afrika
+430 en South of Africa
+430 es Al sur de África
+431 de Prince-Edward-Inseln und Umgebung
+431 en Prince Edward Islands Region
+431 es Región de la Isla del Príncipe Eduardo
+432 de Crozet-Inseln und Umgebung
+432 en Crozet Islands Region
+432 es Región de las Islas Crozet
+433 de Kerguelen-Inseln und Umgebung
+433 en Kerguelen Islands Region
+433 es Región de las Islas Kerguelen
+434 de Broken Ridge
+434 en Broken Ridge
+434 es Cordillera de Broken
+# keine dt. Übersetzung
+435 de Südöstlicher Indischer Rücken
+435 en Southeast Indian Ridge
+435 es Sudoeste de la Cordillera Índica
+436 de Südliches Kerguelenplateau
+436 en Southern Kerguelen Plateau
+436 es Sur de la Meseta Kerguelen
+437 de Südlich von Australien
+437 en South of Australia
+437 es Al sur de Australia
+438 de Saskatchewan, Kanada
+438 en Saskatchewan, Canada
+438 es Saskatchewan, Canadá
+439 de Manitoba, Kanada
+439 en Manitoba, Canada
+439 es Manitoba, Canadá
+440 de Hudson Bay
+440 en Hudson Bay
+440 es Bahía de Hudson
+# keine dt. Übersetzung, evtl. Hudson-Bucht
+441 de Ontario, Kanada
+441 en Ontario, Canada
+441 es Ontario, Canadá
+442 de Hudson-Straße, Kanada, und Umgebung
+442 en Hudson Strait Region, Canada
+442 es Región del estrecho de Hudson, Canadá
+# https://de.wikipedia.org/wiki/Hudson_Bay
+443 de Nord-Quebec, Kanada
+443 en Northern Quebec, Canada
+443 es Norte de Quebec, Canadá
+444 de Davis Strait
+444 en Davis Strait
+444 es Estrecho de Davis
+445 de Labrador, Kanada
+445 en Labrador, Canada
+445 es Labrador, Canadá
+446 de Labradorsee
+446 en Labrador Sea
+446 es Mar de Labrador
+447 de Süd-Quebec, Kanada
+447 en Southern Quebec, Canada
+447 es Sur de Quebec, Canadá
+448 de Halbinsel Gaspe, Kanada
+448 en Gaspe Peninsula, Canada
+448 es Península de Gaspe, Canadá
+449 de Ost-Québec, Kanada
+449 en Eastern Quebec, Canada
+449 es Este de Quebec, Canadá
+450 de Anticosti-Insel, Kanada
+450 en Anticosti Island, Canada
+450 es Isla Anticosti, Canadá
+451 de New Brunswick, Kanada
+451 en New Brunswick, Canada
+451 es Nuevo Brunswick, Canadá
+452 de Nova Scotia, Kanada
+452 en Nova Scotia, Canada
+452 es Nueva Escotia, Canadá
+453 de Prince-Edward-Insel, Kanada
+453 en Prince Edward Island, Canada
+453 es Isla del Príncipe Edward, Canadá
+454 de Golf von St. Lawrence
+454 en Gulf of St. Lawrence
+454 es Golfo de San Lorenzo
+455 de Neufundland, Kanada
+455 en Newfoundland, Canada
+455 es Isla de Terranova, Canadá
+456 de Montana
+456 en Montana
+456 es Montana
+457 de Ost-Idaho
+457 en Eastern Idaho
+457 es Este de Idaho
+458 de Hebgensee und Umgebung
+458 en Hebgen Lake Region
+458 es Región del Lago Hebgen
+459 de Yellowstone-Region, Wyoming
+459 en Yellowstone Region, Wyoming
+459 es Yellowstone, Wyoming
+460 de Wyoming
+460 en Wyoming
+460 es Wyoming
+461 de Nord-Dakota
+461 en North Dakota
+461 es Dakota del Norte
+462 de Süd-Dakota
+462 en South Dakota
+462 es Dakota del Sur
+463 de Nebraska
+463 en Nebraska
+463 es Nebraska
+464 de Minnesota
+464 en Minnesota
+464 es Minnesota
+465 de Iowa
+465 en Iowa
+465 es Iowa
+466 de Wisconsin
+466 en Wisconsin
+466 es Wisconsin
+467 de Illinois
+467 en Illinois
+467 es Illinois
+468 de Michigan
+468 en Michigan
+468 es Michigan
+469 de Indiana
+469 en Indiana
+469 es Indiana
+470 de Süd-Ontario, Kanada
+470 en Southern Ontario, Canada
+470 es Sur de Ontario, Canadá
+471 de Ohio
+471 en Ohio
+471 es Ohio
+472 de New York
+472 en New York
+472 es Nueva York
+473 de Pennsylvania
+473 en Pennsylvania
+473 es Pennsylvania
+474 de Region Vermont/New Hampshire
+474 en Vermont-New Hampshire Region
+474 es Región de Vermont y New Hampshire
+475 de Maine
+475 en Maine
+475 es Maine
+476 de Südliches Neuengland
+476 en Southern New England
+476 es Sur de New England
+477 de Golf von Maine
+477 en Gulf of Maine
+477 es Goldo de Maine
+478 de Utah
+478 en Utah
+478 es Utah
+479 de Colorado
+479 en Colorado
+479 es Colorado
+480 de Kansas
+480 en Kansas
+480 es Kansas
+481 de Iowa-Missouri Grenzregion
+481 en Iowa-Missouri Border Region
+481 es Región fronteriza entre Iowa y Missouri
+482 de Missouri-Kansas Grenzregion
+482 en Missouri-Kansas Border Region
+482 es Región fronteriza entre Missouri y Kansas
+483 de Missouri
+483 en Missouri
+483 es Missouri
+484 de Missouri-Arkansas Grenzregion
+484 en Missouri-Arkansas Border Region
+484 es Región fronteriza entre Missouri y Arkansas
+485 de Ost-Missouri
+485 en Eastern Missouri
+485 es Este de Missouri
+486 de Region New Madrid, Missouri
+486 en New Madrid, Missouri Region
+486 es Región de New Madrid, Missouri
+487 de Region Kap Girardeau, Missouri
+487 en Cape Girardeau, Missouri Region
+487 es Cape Girardeau, Missouri
+488 de Süd-Illinois
+488 en Southern Illinois
+488 es Sur de Illinois
+489 de Süd-Indiana
+489 en Southern Indiana
+489 es Sur de Indiana
+490 de Kentucky
+490 en Kentucky
+490 es Kentucky
+491 de West-Virginia
+491 en West Virginia
+491 es Virginia del Oeste
+492 de Virginia
+492 en Virginia
+492 es Virginia
+493 de Chesapeake-Bay und Umgebung
+493 en Chesapeake Bay Region
+493 es Bahía de Chesapeake
+494 de New Jersey
+494 en New Jersey
+494 es New Jersey
+495 de Ost-Arizona
+495 en Eastern Arizona
+495 es Este de Arizona
+496 de New Mexico
+496 en New Mexico
+496 es Nuevo México
+497 de Texas Panhandle und Umgebung
+497 en Texas Panhandle Region
+497 es Región de Texas Panhandle
+# https://de.wikipedia.org/wiki/Texas_Panhandle
+498 de West-Texas
+498 en Western Texas
+498 es Oeste de Texas
+499 de Oklahoma
+499 en Oklahoma
+499 es Oklahoma
+500 de Zentral-Texas
+500 en Central Texas
+500 es Texas central
+501 de Arkansas-Oklahoma Grenzregion
+501 en Arkansas-Oklahoma Border Region
+501 es Región fronteriza entre Arkansas y Oklahoma
+502 de Arkansas
+502 en Arkansas
+502 es Arkansas
+503 de Louisiana-Texas Grenzregion
+503 en Louisiana-Texas Border Region
+503 es Región fronteriza entre Louisiana y Texas
+504 de Louisiana
+504 en Louisiana
+504 es Louisiana
+505 de Mississippi
+505 en Mississippi
+505 es Mississippi
+506 de Tennessee
+506 en Tennessee
+506 es Tennessee
+507 de Alabama
+507 en Alabama
+507 es Alabama
+508 de West-Florida
+508 en Western Florida
+508 es Western Florida
+509 de Georgia, USA
+509 en Georgia, USA
+509 es Georgia, Estados Unidos
+510 de Florida-Georgia Grenzregion
+510 en Florida-Georgia Border Region
+510 es Región fronteriza entre Florida y Georgia
+511 de South Carolina
+511 en South Carolina
+511 es Carolina del Norte
+512 de North Carolina
+512 en North Carolina
+512 es Carolina del Sur
+513 de Vor der Ostküste der USA
+513 en Off East Coast of United States
+513 es Frente a las costas de Estados Unidos
+514 de Florida-Halbinsel
+514 en Florida Peninsula
+514 es Península de la Florida
+515 de Bahamas
+515 en Bahama Islands
+515 es Islas Bahamas
+516 de Östliche Arizona-Sonora Grenzregion
+516 en Eastern Arizona-Sonora Border Region
+516 es Este de la región fronteriza entre Arizona y Sonora
+517 de New Mexico-Chihuahua Grenzregion
+517 en New Mexico-Chihuahua Border Region
+517 es Región fronteriza entre Nuevo México y Chihuahua
+518 de Texas-Mexiko Grenzregion
+518 en Texas-Mexico Border Region
+518 es Región fronteriza entre Téxas y México
+519 de Süd-Texas
+519 en Southern Texas
+519 es Sur de Texas
+520 de Texas, Küstenregion
+520 en Near Coast of Texas
+520 es Cerca de la costa de Texas
+521 de Chihuahua, Mexiko
+521 en Chihuahua, Mexico
+521 es Chihuahua, México
+522 de Nord-Mexiko
+522 en Northern Mexico
+522 es Norte de México
+523 de Zentral-Mexiko
+523 en Central Mexico
+523 es Centro de México
+524 de Jalisco, Mexiko
+524 en Jalisco, Mexico
+524 es Jalisco, México
+525 de Veracruz, Mexiko
+525 en Veracruz, Mexico
+525 es Veracruz, México
+526 de Golf von Mexiko
+526 en Gulf of Mexico
+526 es Golfo de México
+527 de Bucht von Campeche
+527 en Bay of Campeche
+527 es Bahía Campeche
+528 de Brasilien
+528 en Brazil
+528 es Brasil
+529 de Guyana
+529 en Guyana
+529 es Guyana
+530 de Surinam
+530 en Suriname
+530 es Suriname
+531 de Französisch-Guyana
+531 en French Guiana
+531 es Guyana Francesa
+# https://de.france.fr/de/franzosisch-guyana
+# https://en.wikipedia.org/wiki/French_Guiana
+532 de Irland
+532 en Ireland
+532 es Irlanda
+533 de Vereinigtes Königreich
+533 en United Kingdom
+533 es Reino Unido
+534 de Nordsee
+534 en North Sea
+534 es Mar del Norte
+535 de Süd-Norwegen
+535 en Southern Norway
+535 es Sur de Noruega
+536 de Schweden
+536 en Sweden
+536 es Suecia
+537 de Ostsee
+537 en Baltic Sea
+537 es Mar Báltico
+538 de Frankreich
+538 en France
+538 es Francia
+539 de Golf von Biskaya
+539 en Bay of Biscay
+539 es Bahía de Vizcaya
+540 de Niederlande
+540 en The Netherlands
+540 es Países Bajos
+541 de Belgien
+541 en Belgium
+541 es Bélgica
+542 de Dänemark
+542 en Denmark
+542 es Dinamarca
+543 de Deutschland
+543 en Germany
+543 es Alemania
+544 de Schweiz
+544 en Switzerland
+544 es Países Bajos
+545 de Norditalien
+545 en Northern Italy
+545 es Norte de Italia
+546 de Österreich
+546 en Austria
+546 es Austria
+547 de Tschechische und Slowakische Republiken
+547 en Czech and Slovak Republics
+547 es República Checa y Eslovaquia
+548 de Polen
+548 en Poland
+548 es Polonia
+549 de Ungarn
+549 en Hungary
+549 es Hungría
+550 de Nordwest-Afrika
+550 en Northwest Africa
+550 es Noroeste de África
+551 de Süd-Algerien
+551 en Southern Algeria
+551 es Sur de Argelia
+552 de Libyen
+552 en Libya
+552 es Liba
+553 de Ägypten
+553 en Egypt
+553 es Egipto
+554 de Rotes Meer
+554 en Red Sea
+554 es Mar Rojo
+555 de Westliche Arabische Halbinsel
+555 en Western Arabian Peninsula
+555 es Oeste de la Península arábiga
+556 de Chad und Umgebung
+556 en Chad Region
+556 es Región de Chad
+557 de Sudan
+557 en Sudan
+557 es Sudán
+558 de Äthiopien
+558 en Ethiopia
+558 es Etiopía
+559 de Westlicher Golf von Aden
+559 en Western Gulf of Aden
+559 es Oeste del Golfo de Aden
+560 de Nordwest-Somalia
+560 en Northwestern Somalia
+560 es Noroeste de Somalia
+561 de Vor der Südküste von Nordwest-Afrika
+561 en Off South Coast of Northwest Africa
+561 es Frente a la costa sur del noroeste de África
+562 de Kamerun
+562 en Cameroon
+562 es Camerún
+563 de Äquatorialguinea
+563 en Equatorial Guinea
+563 es Guinea Ecuatorial
+564 de Zentralafrikanische Republik
+564 en Central African Republic
+564 es Central African Republic
+565 de Gabun
+565 en Gabon
+565 es Gabón
+566 de Republik Kongo
+566 en Republic of Congo
+566 es República del Congo
+567 de Demokratische Republik Kongo
+567 en Democratic Republic of Congo
+567 es República Democrática del Congo
+568 de Uganda
+568 en Uganda
+568 es Uganda
+569 de Victoriasee und Umgebung
+569 en Lake Victoria Region
+569 es Región del Lago Victoria
+570 de Kenia
+570 en Kenya
+570 es Kenia
+571 de Süd-Somalia
+571 en Southern Somalia
+571 es Sur de Somalia
+572 de Tanganjikasee und Umgebung
+572 en Lake Tanganyika Region
+572 es Región del Lago Tanganika
+573 de Tansania
+573 en Tanzania
+573 es Tanzania
+574 de Nordwestlich von Madagaskar
+574 en Northwest of Madagascar
+574 es Al noroeste de Madagascar
+575 de Angola
+575 en Angola
+575 es Angola
+576 de Sambia
+576 en Zambia
+576 es Zambia
+577 de Malawi
+577 en Malawi
+577 es Malawi
+578 de Namibia
+578 en Namibia
+578 es Namibia
+579 de Botswana
+579 en Botswana
+579 es Botsuana
+580 de Simbabwe
+580 en Zimbabwe
+580 es Zimbabue
+581 de Mosambik
+581 en Mozambique
+581 es Mozambique
+582 de Mosambik-Kanal
+582 en Mozambique Channel
+582 es Canal de Mozambique
+583 de Madagaskar
+583 en Madagascar
+583 es Madagascar
+584 de Südafrika
+584 en South Africa
+584 es Sudáfrica
+585 de Lesotho
+585 en Lesotho
+585 es Lesoto
+586 de Swasiland
+586 en Swaziland
+586 es Suazilandia
+587 de Vor der Küste Südafrikas
+587 en Off Coast of South Africa
+587 es Frente a las costas de Sudáfrica
+588 de Nordwesten von Australien
+588 en Northwest of Australia
+588 es Al noroeste de Australia
+589 de Westlich von Australien
+589 en West of Australia
+589 es Al oeste de Australia
+590 de West-Australien
+590 en Western Australia
+590 es Australia Occidental
+591 de Nordterritorium, Australien
+591 en Northern Territory, Australia
+591 es Territorio del Norte, Australia
+592 de Süd-Australien
+592 en South Australia
+592 es Australia del Sur
+593 de Golf von Carpentaria
+593 en Gulf of Carpentaria
+593 es Golfo de Carpentaria
+594 de Queensland, Australien
+594 en Queensland, Australia
+594 es Queensland, Australia
+595 de Korallensee
+595 en Coral Sea
+595 es Mar de Coral
+596 de Nordwestlich von Neukaledonien
+596 en Northwest of New Caledonia
+596 es Al noroeste de Nueva Caledonia
+597 de Südwestlich von Neukaledonien
+597 en Southwest of New Caledonia
+597 es Al sudoeste de Nueva Caledonia
+598 de Südwestlich von Australien
+598 en Southwest of Australia
+598 es Al sudoeste de Australia
+599 de Vor der Südküste Australiens
+599 en Off South Coast of Australia
+599 es Frente a la costa sur de Australia
+600 de Süd-Australien, Küstenregion
+600 en Near Coast of South Australia
+600 es Cerca de la costa sur de Australia
+601 de Neusüdwales, Australien
+601 en New South Wales, Australia
+601 es Nueva Gales del Sur, Australia
+602 de Victoria, Australien
+602 en Victoria, Australia
+602 es Victoria, Australia
+603 de Nahe der Südostküste Australiens
+603 en Near Southeast Coast of Australia
+603 es Cerca de la costa sudeste de Australia
+604 de Nahe Ostküste Australiens
+604 en Near East Coast of Australia
+604 es Cerca de la costa este de Australia
+605 de Östlich von Australien
+605 en East of Australia
+605 es Al este de Australia
+606 de Norfolkinsel, Australien, und Umgebung
+606 en Norfolk Island, Australia Region
+606 es Islas Norfolk
+607 de Nordwestlich von Neuseeland
+607 en Northwest of New Zealand
+607 es Al noroeste de Nueva Zelanda
+608 de Bass-Straße, Australien
+608 en Bass Strait, Australia
+608 es Estrecho de Bass
+609 de Tasmanien, Australien, und Umgebung
+609 en Tasmania, Australia Region
+609 es Región de Tasmania, Australia
+610 de Südost-Australien
+610 en Southeast of Australia
+610 es Al sureste de Australia
+611 de Nordpazifik
+611 en North Pacific Ocean
+611 es Norte del Océano Pacífico
+612 de Hawaii und Umgebung
+612 en Hawaiian Islands Region
+612 es Región de las Islas Hawaianas
+613 de Hawaii
+613 en Hawaii
+613 es Hawái
+614 de Östliche Karolineninseln, Mikronesien
+614 en Eastern Caroline Islands, Micronesia
+614 es Este de las islas Caroline, Micronesia
+615 de Marshallinseln und Umgebung
+615 en Marshall Islands Region
+615 es Región de las Islas Marshall
+616 de Eniwetok, Marshallinseln, und Umgebung
+616 en Enewetak Atoll Region, Marshall Islands
+616 es Región Enewetak Atoll, Islas Islands
+617 de Bikini-Atoll, Marshallinseln, und Umgebung
+617 en Bikini Atoll Region, Marshall Islands
+617 es Región Bikini Atoll, Islas Islands
+618 de Gilbert-Inseln, Region Kiribati
+618 en Gilbert Islands, Kiribati Region
+618 es Región de las Islas Gilbert, Kiribati
+619 de Johnston-Atoll und Umgebung
+619 en Johnston Island Region
+619 es Región de la Isla Johnston
+# https://de.wikipedia.org/wiki/Johnston-Atoll
+620 de Linieninseln, Region Kiribati
+620 en Line Islands, Kiribati Region
+620 es Región de las Islas Line, Kiribati
+621 de Palmyra-Inselgebiet, Kiribati
+621 en Palmyra Island Region, Kiribati
+621 es Región de la Isla Palmyra, Kiribati
+622 de Kiritimati-Region, Kiribati
+622 en Kiritimati Region, Kiribati
+622 es Región de Kiritimati, Kiribati
+623 de Tuvalu und Umgebung
+623 en Tuvalu Region
+623 es Región de Tuvalu
+624 de Phoenix-Inseln, Kiribati und Umgebung
+624 en Phoenix Islands, Kiribati Region
+624 es Región de las Islas Phoenix, Kiribati
+625 de Tokelau-Inseln und Umgebung
+625 en Tokelau Islands Region
+625 es Región de las Islas Tokelau
+626 de Nördliche Cookinseln
+626 en Northern Cook Islands
+626 es Norte de las Islas Cook
+627 de Region Cookinseln
+627 en Cook Islands Region
+627 es Región de las Islas Cook
+628 de Gesellschaftsinseln und Umgebung
+628 en Society Islands Region
+628 es Región de las Islas Society
+629 de Tubuai-Inseln
+629 en Tubuai Islands Region
+629 es Región de las Islas Tubuai
+630 de Marquesas-Inseln
+630 en Marquesas Islands Region
+630 es Región de las Islas Marquesas
+631 de Tuamotu-Archipel und Umgebung
+631 en Tuamotu Archipelago Region
+631 es Región del Archipiélago Tuamotu
+632 de Südpazifik
+632 en South Pacific Ocean
+632 es Sur del Océano Pacífico
+633 de Lomonosov-Rücken
+633 en Lomonosov Ridge
+633 es Cordillera de Lomonosov
+634 de Arktischer Ozean
+634 en Arctic Ocean
+634 es Océano Ártico
+635 de Nahe der Nordküste von Grönland
+635 en Near North Coast of Greenland
+635 es Cerca del norte de la costa de Groenlandia
+636 de Ost-Grönland
+636 en Eastern Greenland
+636 es Este de Groenlandia
+637 de Island und Umgebung
+637 en Iceland Region
+637 es Región de Islandia
+638 de Island
+638 en Iceland
+638 es Islandia
+639 de Jan-Mayen-Inselgebiet
+639 en Jan Mayen Island Region
+639 es Región de la Isla Jan Mayen
+640 de Grönlandmeer
+640 en Greenland Sea
+640 es Mar de Groenlandia
+641 de Nördlich von Spitzbergen
+641 en North of Svalbard
+641 es Al norte de Svalbard
+642 de Norwegisches Meer
+642 en Norwegian Sea
+642 es Mar de Noruega
+643 de Spitzbergen und Umgebung
+643 en Svalbard Region
+643 es Región de Svalbard
+644 de Nördlich von Franz-Josef-Land
+644 en North of Franz Josef Land
+644 es Al norte de Franz Josef Land
+645 de Franz-Josef-Land, Russland
+645 en Franz Josef Land, Russia
+645 es Franz Josef Land, Rusia
+646 de Nord-Norwegen
+646 en Northern Norway
+646 es Norte de Noruega
+647 de Barentssee
+647 en Barents Sea
+647 es Mar de Barents
+648 de Novaya-Semlja, Russland
+648 en Novaya Zemlya, Russia
+648 es Novaya Zemlya, Rusia
+649 de Karasee
+649 en Kara Sea
+649 es Mar de Kara
+650 de West-Sibirien, Russland, Küstenregion
+650 en Near Coast of Western Siberia, Russia
+650 es Cerca de la costa oeste de Siberia, Rusia
+651 de Nördlich von Sewernaja-Semlja
+651 en North of Severnaya Zemlya
+651 es Al norte de Severnaya Zemlya
+652 de Sewernaja-Semlja, Russland
+652 en Severnaya Zemlya, Russia
+652 es Severnaya Zemlya, Rusia
+653 de Zentralsibirien, Russland, Küstenregion
+653 en Near Coast of Central Siberia, Russia
+653 es Cerca de la costa del centro de Siberia, Rusia
+654 de Östlich von Sewernaja-Semlja
+654 en East of Severnaya Zemlya
+654 es Al este de Tierra del Norte, Rusia
+655 de Laptevsee
+655 en Laptev Sea
+655 es Mar de Laptev
+656 de Südost-Sibirien, Russland
+656 en Southeastern Siberia, Russia
+656 es Sureste de Siberia, Rusia
+657 de Ost-Russland-Nordost-China Grenzregion
+657 en Eastern Russia-Northeastern China Border Region
+657 es Este de la región fronteriza entre Rusia y el noreste de China
+658 de Nordost-China
+658 en Northeastern China
+658 es Noreste de China
+659 de Nordkorea
+659 en North Korea
+659 es Corea del Norte
+660 de Japanisches Meer
+660 en Sea of Japan
+660 es Mar de Japón
+661 de Primor'ye, Russland
+661 en Primor'ye, Russia
+661 es Primor'ye, Rusia
+662 de Sachalin, Russland
+662 en Sakhalin, Russia
+662 es Sakhalin, Rusia
+663 de Ochotskisches Meer
+663 en Sea of Okhotsk
+663 es Mar de Okhotsk
+664 de Südost-China
+664 en Southeastern China
+664 es Sureste de China
+665 de Gelbes Meer
+665 en Yellow Sea
+665 es Mar Amarillo
+666 de Vor der Küste von Ost-China
+666 en Off Coast of Eastern China
+666 es Frente a las costas del este de China
+667 de Nördlich der Neuen Sibirischen Inseln
+667 en North of New Siberian Islands
+667 es Al norte de las Islas de Nueva Siberia
+668 de Neue Sibirische Inseln, Russland
+668 en New Siberian Islands, Russia
+668 es Islas Nueva Siberia, Rusia
+669 de Ostsibirische See
+669 en East Siberian Sea
+669 es Este del Mar de Siberia
+670 de Nahe der Nordküste von Ost-Sibirien
+670 en Near North Coast of Eastern Siberia
+670 es Cerca de la costa norte del este de Siberia
+671 de Ost-Sibirien, Russland
+671 en Eastern Siberia, Russia
+671 es Este de Siberia, Rusia
+672 de Chukchi-See
+672 en Chukchi Sea
+672 es Mar de Chukchi
+673 de Beringstraße
+673 en Bering Strait
+673 es Estrecho de Bering
+674 de St. Lawrence Island, Alaska, und Umgebung
+674 en St. Lawrence Island, Alaska Region
+674 es Isla San Lorenzo, Alaska
+675 de Beaufortsee
+675 en Beaufort Sea
+675 es Mar de Beaufort
+676 de Nord-Alaska
+676 en Northern Alaska
+676 es Norte de Alaska
+677 de Nördlicher Yukon, Kanada
+#677 en Northern Yukon, Canada
+677 en Northern Yukon Territory, Canada
+677 es Norte del Yukon, Canadá
+678 de Queen Elizabeth Islands, Kanada
+678 en Queen Elizabeth Islands, Canada
+678 es Islas de la Reina Elizabeth, Canadá
+679 de Nordwest-Territorien und Nunavut, Kanada
+679 en Northwest Territories-Nunavut, Canada
+679 es Territorios del Noroeste y Nunavut, Canadá
+680 de West-Grönland
+680 en Western Greenland
+680 es Oeste de Groenlandia
+681 de Baffin Bay
+681 en Baffin Bay
+681 es Bahía de Baffin
+682 de Baffininsel, Kanada, und Umgebung
+682 en Baffin Island Region, Canada
+682 es Región de la Isla de Baffin, Canadá
+683 de Südöstlicher Zentralpazifik
+683 en Southeast Central Pacific Ocean
+683 es Sudeste del centro del Océano Pacífico
+684 de Südlicher Ostpazifischer Rücken
+684 en Southern East Pacific Rise
+684 es Sur de la Cordillera del Pacífico este
+685 de Osterinsel und Umgebung
+685 en Easter Island Region
+685 es Región de la Isla de Pascua
+686 de Westlicher Chile-Rücken
+686 en West Chile Rise
+686 es Oeste de la Cordillera de Chile
+687 de Juan-Fernandez-Inseln
+687 en Juan Fernandez Islands Region
+687 es Región de las Islas de Juan Fernández
+688 de Östlich der Nordinsel, Neuseeland
+688 en East of North Island, New Zealand
+688 es Al este de la Isla Norte, Nueva Zelanda
+689 de Chathaminseln, Neuseeland
+689 en Chatham Islands, New Zealand Region
+689 es Región de las Islas Chatham, Nueva Zelanda
+690 de Südlich der Chathaminseln
+690 en South of Chatham Islands
+690 es Al sur de las Islas Chatham
+691 de Pazifisch-Antarktischer Rücken
+691 en Pacific-Antarctic Ridge
+691 es Cordillera Pacífico-Antártica
+692 de Südlicher Pazifik
+692 en Southern Pacific Ocean
+692 es Sur del Océano Pacífico
+693 de Östlicher Zentral-Pazifik
+693 en East-Central Pacific Ocean
+693 es Este del centro del Océano Pacífico
+694 de Zentraler Ostpazifischer Rücken
+694 en Central East Pacific Rise
+694 es Centro-este de la Cordillera del Pacífico
+695 de Westlich der Galapagos-Inseln
+695 en West of Galapagos Islands
+695 es Al oeste de las Islas Galápagos
+696 de Galapagos-Inseln, Umgebung
+696 en Galapagos Islands Region
+696 es Región de las Islas Galápagos
+697 de Galapagos-Inseln, Ecuador
+697 en Galapagos Islands, Ecuador
+697 es Islas Galápagos, Ecuador
+698 de Südwestlich der Galapagos-Inseln
+698 en Southwest of Galapagos Islands
+698 es Al sudoeste de las Islas Galápagos
+699 de Südöstlich der Galapagos-Inseln
+699 en Southeast of Galapagos Islands
+699 es Al sudeste de las Islas Galápagos
+700 de Südlich von Tasmanien
+700 en South of Tasmania
+700 es Al sur de Tasmania
+701 de Westlich der Macquarieinsel
+701 en West of Macquarie Island
+701 es Al oeste de las Islas Macquarie
+702 de Balleny-Inseln und Umgebung
+702 en Balleny Islands Region
+702 es Región de las Islas Balleny
+# https://de.wikipedia.org/wiki/Balleny-Inseln
+703 de Andamanen, Indien
+703 en Andaman Islands, India Region
+703 es Región de las Islas Andaman, India
+704 de Nicobaren, Indien
+704 en Nicobar Islands, India Region
+704 es Región de las Islas Nicobar, India
+705 de Vor der Westküste von Nord-Sumatra
+705 en Off West Coast of Northern Sumatra
+705 es Fuera de la costa oeste del norte de Sumatra
+706 de Nord-Sumatra, Indonesien
+706 en Northern Sumatra, Indonesia
+706 es Norte de Sumatra, Indonesia
+707 de Malaiische Halbinsel
+707 en Malay Peninsula
+707 es Península de Malay
+708 de Golf von Thailand
+708 en Gulf of Thailand
+708 es Golfo de Tailandia
+709 de Südost-Afghanistan
+709 en Southeastern Afghanistan
+709 es Sudeste de Afganistán
+710 de Pakistan
+710 en Pakistan
+710 es Pakistán
+711 de Südwest-Kaschmir
+711 en Southwestern Kashmir
+711 es Sudoeste de Kashmir
+712 de Indien-Pakistan Grenzregion
+712 en India-Pakistan Border Region
+712 es Región fronteriza entre la India y Pakistán
+713 de Zentral-Kasachstan
+713 en Central Kazakhstan
+713 es Centro de Kazajistán
+714 de Südost-Usbekistan
+714 en Southeastern Uzbekistan
+714 es Sudeste de Uzbekistán
+715 de Tadschikistan
+715 en Tajikistan
+715 es Tayikistán
+# https://de.wikipedia.org/wiki/Kirgisistan
+716 de Kirgisistan
+716 en Kyrgyzstan
+716 es Kirguistán
+717 de Afghanistan-Tadschikistan Grenzregion
+717 en Afghanistan-Tajikistan Border Region
+717 es Región fronteriza entre Afganistán y Tayikistán
+718 de Hindukusch-Region, Afghanistan
+718 en Hindu Kush Region, Afghanistan
+718 es Región Hindu Kush, Afganistán
+719 de Tadschikistan-Xinjiang Grenzregion
+719 en Tajikistan-Xinjiang Border Region
+719 es Región fronteriza entre Tayikistán y Xinjiang
+720 de Nordwestlich von Kaschmir
+720 en Northwestern Kashmir
+720 es Noroeste de Kashmir
+721 de Finnland
+721 en Finland
+721 es Finlandia
+722 de Norwegen-Russland Grenzregion
+722 en Norway-Russia Border Region
+722 es Región fronteriza entre Noruega y Rusia
+723 de Finnland-Russland Grenzregion
+723 en Finland-Russia Border Region
+723 es Región fronteriza entre Finlandia y Rusia
+724 de Baltikum-Weissrussland-Nordwest-Russland
+724 en Baltics-Belarus-Northwestern Russia Region
+724 es Región fronteriza entre los Bálticos, Bielorrusia y el noroeste de Rusia
+725 de Nordwest-Sibirien, Russland
+725 en Northwestern Siberia, Russia
+725 es Noroeste de Siberia, Rusia
+726 de Nordzentral-Sibirien, Russland
+726 en Northcentral Siberia, Russia
+726 es Centro-norte de Siberia, Rusia
+727 de Victorialand, Antarktis
+727 en Victoria Land, Antarctica
+727 es Tierra de Victoria, Antártida
+728 de Rossmeer
+728 en Ross Sea
+728 es Mar de Ross
+729 de Antarctica
+729 en Antarctica
+# https://es.wikipedia.org/wiki/Ant%C3%A1rtida
+729 es Antártida
+730 de Nördlicher Ostpazifischer Rücken
+730 en Northern East Pacific Rise
+730 es Al norte de la Dorsal del Pacífico Oriental
+731 de Nördlich von Honduras
+731 en North of Honduras
+731 es Al norte de Honduras
+732 de Östlich der südlichen Sandwich-Inseln
+732 en East of South Sandwich Islands
+732 es Al este de las Islas Sandwich del Sur
+733 de Thailand
+733 en Thailand
+733 es Tailandia
+734 de Laos
+734 en Laos
+734 es Laos
+735 de Kambodscha
+735 en Cambodia
+735 es Camboya
+736 de Vietnam
+736 en Vietnam
+736 es Vietnam
+# https://en.wikipedia.org/wiki/Gulf_of_Tonkin
+737 de Golf von Tongking
+737 en Gulf of Tongking
+737 es Golfo de Tongkín
+738 de Reykjanes Grat
+738 en Reykjanes Ridge
+738 es Dorsal de Reykjanes
+739 de Azoren-Kap St. Vincent Ridge
+739 en Azores-Cape St. Vincent Ridge
+739 es Dorsal de Azores-Cape San Vicente
+740 de Owen Bruchzone und Umgebung
+740 en Owen Fracture Zone Region
+740 es Región de la Zona de Fractura de Owen
+741 de Indischer-Ozean-Tripelpunkt
+741 en Indian Ocean Triple Junction
+741 es Unión triple del Océano Índico
+742 de Westlicher Indisch-Antarktischer Rücken
+742 en Western Indian-Antarctic Ridge
+742 es Oeste de la Cordillera Índico-Antártica
+# https://de.wikipedia.org/wiki/Westsahara
+743 de Westsahara
+743 en Western Sahara
+# https://es.wikipedia.org/wiki/Sahara_Occidental
+743 es Sahara Occidental
+744 de Mauretanien
+744 en Mauritania
+744 es Mauritania
+745 de Mali
+745 en Mali
+745 es Mali
+746 de Senegal-Gambia-Region
+746 en Senegal-Gambia Region
+746 es Región de Senegal y Gambia
+747 de Guinea und Umgebung
+747 en Guinea Region
+747 es Región de Guinea
+748 de Sierra Leone
+748 en Sierra Leone
+748 es Sierra Leona
+749 de Liberia und Umgebung
+749 en Liberia Region
+749 es Región de Liberia
+750 de Elfenbeinküste
+750 en Ivory Coast
+750 es Costa de Marfil
+751 de Burkina Faso
+751 en Burkina Faso
+751 es Burkina Faso
+752 de Ghana
+752 en Ghana
+752 es Ghana
+753 de Benin-Togo-Region
+753 en Benin-Togo Region
+753 es Región de Benín y Togo
+754 de Niger
+754 en Niger
+754 es Níger
+755 de Nigeria
+755 en Nigeria
+755 es Nigeria
+756 de Südöstlich der Osterinsel
+756 en Southeast of Easter Island
+756 es Al sudeste de la Isla de Pascua
+757 de Galapagos-Tripelpunkt und Umgebung
+   757   en   Galapagos Triple Junction Region
+   757   es   Región de la triple unión de las Islas Galápagos
+
+# 50-51N, 12-13E
+1001 de Vogtland (deutsch-tschechiche Grenzregion)
+1001 en Vogtland (German-Czech Border Region)
+1001 es Vogtland (Región fronteriza Alemania-República Checa)
