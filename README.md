@@ -18,3 +18,29 @@ modifications are then deviations from the "standard" Flinn-Engdahl
 region numbering.
 
 Python wrappers are automatically generated using SWIG.
+
+Examples
+--------
+
+'''
+>>> import flinnengdahl
+>>> fe=flinnengdahl.FlinnEngdahl()
+>>> fe.name(50,10)
+'Germany'
+>>> fe.number(50,10)
+543
+>>> fe.read("numbered-names-intl.txt")
+>>> fe.name(50,10,"de")
+'Deutschland'
+>>> fe.name(50,10,"es")
+'Alemania'
+>>> fe.name(50,10,"en")
+'Germany'
+>>> fe.name(50,10,"")
+'Germany'
+>>> fe.setCategory("de")
+>>> fe.name(50,10)
+'Deutschland'
+'''
+
+You get the picture.
