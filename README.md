@@ -14,12 +14,17 @@ preserving the original region *numbering* scheme. Names may change and some
 of the names in the original Flinn-Engdahl region naming are at least debatable.
 The goal here is to follow Wikipedia as closely as possible. We added the
 ability to use arbitrary translations. An example translation table
-is included for English, Germany and Spanish. The English region names are
+is included for English, German and Spanish. The English region names are
 hardcoded as default and the C++ code defining the hardcoded names can easily
 be (re)generated from the translation table whenever needed.
 
+The translation table is provided as a *single file*, as it was found to be convenient
+to have translations to several languages on consecutive lines for comparison, with
+comments added where needed to support a certain naming (e.g. "Revillagigedo" or
+"Haida Gwaii").
+
 The codes are set up in a way that in theory allows defining new cells,
-provided they fit in the 1x1-degree cells. But remember that such
+provided they fit in the 1x1-degree raster. But please note that such
 modifications are then deviations from the "standard" Flinn-Engdahl
 region numbering and should not be called "Flinn-Engdahl regions" any more.
 
