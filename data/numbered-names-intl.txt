@@ -168,9 +168,12 @@
 052 de Zentralmexiko, Küstenregion
 052 en near coast of Central Mexico
 052 es cerca de la costa del centro de México
-053 de Revilla-Gigedo-Inseln
-053 en Revilla Gigedo Islands region
-053 es región de las islas Revilla Gigedo
+# https://de.wikipedia.org/wiki/Revillagigedo-Inseln
+053 de Revillagigedo-Inseln
+# https://en.wikipedia.org/wiki/Revillagigedo_Islands
+053 en Revillagigedo Islands region
+# https://es.wikipedia.org/wiki/Archipi%C3%A9lago_de_Revillagigedo
+053 es región de las islas Revillagigedo
 054 de vor der Küste von Jalisco, Mexiko
 054 en off coast of Jalisco, Mexico
 054 es frente a las costas de Jalisco, México
