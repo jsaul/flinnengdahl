@@ -465,7 +465,7 @@
 150 de Scotiasee
 150 en Scotia Sea
 150 es mar de Scotia
-151 de Südgeorgien Inselregion
+151 de Südgeorgien Region
 151 en South Georgia Island region
 151 es sur de la región de las islas Georgia
 152 de Südgeorgischer Rücken
@@ -579,7 +579,7 @@
 188 de Treueinseln
 188 en Loyalty Islands
 188 es islas Loyalty
-189 de Südöstlich der Loyalitätsinseln
+189 de südöstlich der Loyalitätsinseln
 189 en southeast of Loyalty Islands
 189 es sureste de las islas Loyalty
 190 de Neuirland, Papua Neuguinea, und Umgebung
@@ -682,7 +682,7 @@
 219 de vor der Ostküste von Kamtschatka
 219 en off east coast of Kamchatka
 219 es frente a la costa este de Kamchatka
-220 de Nordwestlich der Kurilen
+220 de nordwestlich der Kurilen
 220 en northwest of Kuril Islands
 220 es al noroeste de las islas Kuriles
 221 de Kurilen
@@ -724,7 +724,7 @@
 233 de nahe der Südküste von West-Honschu
 233 en near south coast of western Honshu
 233 es cerca de la costa sur del oeste de Honshu
-234 de Nordwestlich der Ryukyu-Inseln
+234 de nordwestlich der Ryukyu-Inseln
 234 en northwest of Ryukyu Islands
 234 es al noroeste de las islas Ryukyu
 235 de Kyuschu, Japan
@@ -763,7 +763,7 @@
 246 de südwestliche Ryukyu-Insel, Japan
 246 en southwestern Ryukyu Islands, Japan
 246 es suroeste de las islas Ryukyu, Japón
-247 de Südöstlich von Taiwan
+247 de südöstlich von Taiwan
 247 en southeast of Taiwan
 247 es al sureste de Taiwán
 248 de Philippinische Inselregion
@@ -930,13 +930,13 @@
 301 es sur del mar de China
 302 de Ost-Kaschmir
 302 en eastern Kashmir
-302 es este de Kashmir
+302 es este de Cachemira
 303 de Grenzregion Kaschmir-Indien
 303 en Kashmir-India border region
-303 es región fronteriza entre Kashmir y la India
+303 es región fronteriza entre Cachemira y la India
 304 de Kaschmir-Tibet Grenzregion
 304 en Kashmir-Xizang border region
-304 es región fronteriza entre Kashmir y Xizang
+304 es región fronteriza entre Cachemira y Xizang
 305 de westliche Tibet-Indien Grenzregion
 305 en western Xizang-India border region
 305 es oeste de la región fronteriza entre el oeste de Xizang y la India
@@ -998,7 +998,7 @@
 323 es oeste de Nei Mongol, China
 324 de Kaschmir-Xinjiang Grenzregion
 324 en Kashmir-Xinjiang border region
-324 es región fronteriza entre Kashmir y Xinjiang
+324 es región fronteriza entre Cachemira y Xinjiang
 325 de Qinghai, China
 325 en Qinghai, China
 325 es Qinghai, China
@@ -1123,6 +1123,9 @@
 365 en Aegean Sea
 365 es mar Egeo
 366 de Türkei
+# On Wikipedia, 'Turkey' has not yet been renamed to 'Türkiye'
+# See also https://en.wikipedia.org/wiki/Talk:Turkey/Archive_39#Requested_move_15_February_2024
+# We follow Wikipedia.
 366 en Turkey
 366 es Turquía
 367 de Georgien-Armenien-Türkei Grenzregion
@@ -1175,7 +1178,7 @@
 382 de Adriatisches Meer
 382 en Adriatic Sea
 382 es mar Adriático
-383 de Nordwestlicher Balkan
+383 de nordwestlicher Balkan
 383 en northwestern Balkan region
 383 es noroeste de la península Balcánica
 384 de westlich von Gibraltar
@@ -1681,7 +1684,8 @@
 546 de Österreich
 546 en Austria
 546 es Austria
-547 de Tschechische und Slowakische Republiken
+547 de Tschechien und Slowakei
+# https://en.wikipedia.org/wiki/Talk:Czech_Republic
 547 en Czech and Slovak Republics
 547 es República Checa y Eslovaquia
 548 de Polen
@@ -1762,7 +1766,7 @@
 573 de Tansania
 573 en Tanzania
 573 es Tanzania
-574 de Nordwestlich von Madagaskar
+574 de nordwestlich von Madagaskar
 574 en northwest of Madagascar
 574 es al noroeste de Madagascar
 575 de Angola
@@ -1828,14 +1832,14 @@
 595 de Korallensee
 595 en Coral Sea
 595 es mar de Coral
-596 de Nordwestlich von Neukaledonien
+596 de nordwestlich von Neukaledonien
 596 en northwest of New Caledonia
 596 es al noroeste de Nueva Caledonia
-597 de Südwestlich von Neukaledonien
-597 en Southwest of New Caledonia
+597 de südwestlich von Neukaledonien
+597 en southwest of New Caledonia
 597 es al sudoeste de Nueva Caledonia
-598 de Südwestlich von Australien
-598 en Southwest of Australia
+598 de südwestlich von Australien
+598 en southwest of Australia
 598 es al sudoeste de Australia
 599 de vor der Südküste Australiens
 599 en off south coast of Australia
@@ -1861,7 +1865,7 @@
 606 de Norfolkinsel, Australien, und Umgebung
 606 en Norfolk Island, Australia region
 606 es islas Norfolk
-607 de Nordwestlich von Neuseeland
+607 de nordwestlich von Neuseeland
 607 en northwest of New Zealand
 607 es al noroeste de Nueva Zelanda
 608 de Bass-Straße, Australien
@@ -2129,7 +2133,7 @@
 692 en southern Pacific Ocean
 692 es sur del océano Pacífico
 693 de östlicher Zentral-Pazifik
-693 en East-central Pacific Ocean
+693 en east-central Pacific Ocean
 693 es este del centro del océano Pacífico
 694 de zentraler Ostpazifischer Rücken
 694 en central East Pacific Rise
@@ -2186,7 +2190,7 @@
 710 es Pakistán
 711 de Südwest-Kaschmir
 711 en southwestern Kashmir
-711 es sudoeste de Kashmir
+711 es sudoeste de Cachemira
 712 de Indien-Pakistan Grenzregion
 712 en India-Pakistan border region
 712 es región fronteriza entre la India y Pakistán
@@ -2214,7 +2218,7 @@
 719 es región fronteriza entre Tayikistán y Xinjiang
 720 de nordwestlich von Kaschmir
 720 en northwestern Kashmir
-720 es noroeste de Kashmir
+720 es noroeste de Cachemira
 721 de Finnland
 721 en Finland
 721 es Finlandia
@@ -2325,7 +2329,7 @@
 755 de Nigeria
 755 en Nigeria
 755 es Nigeria
-756 de Südöstlich der Osterinsel
+756 de südöstlich der Osterinsel
 756 en southeast of Easter Island
 756 es al sudeste de la isla de Pascua
 757 de Galapagos-Tripelpunkt und Umgebung

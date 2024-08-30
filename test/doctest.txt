@@ -1,23 +1,33 @@
 >>> import flinnengdahl
 >>> fe = flinnengdahl.FlinnEngdahl()
->>> fe.name(50,10)
+>>> lat, lon = 50, 10
+>>> fe.name(lat, lon)
 'Germany'
->>> fe.name(50,50)
-'Western Kazakhstan'
->>> fe.read("../numbered-names-intl.txt")
+>>> lat, lon = 50, 50
+>>> fe.name(lat, lon)
+'western Kazakhstan'
+>>> fe.read("../data/numbered-names-intl.txt")
 True
->>> fe.name(50,50)
-'Western Kazakhstan'
+>>> fe.name(lat, lon)
+'western Kazakhstan'
 >>> fe.setCategory("de")
->>> fe.name(50,50)
+>>> fe.name(lat, lon)
 'West-Kasachstan'
 >>> fe.setCategory("es")
->>> fe.name(50,50)
-'Oeste de Kazakhstan'
+>>> fe.name(lat, lon)
+'oeste de Kazakhstan'
 >>> fe.setCategory("yz")
 Traceback (most recent call last):
     ...
 ValueError: invalid category: yz
+>>> fe.name(100, "xy")
+Traceback (most recent call last):
+    ...
+ValueError: invalid category: xy
+>>> fe.name(1000, "de")
+Traceback (most recent call last):
+    ...
+ValueError: invalid region number: 1000
 >>> fe.read("non existing file")
 Traceback (most recent call last):
     ...

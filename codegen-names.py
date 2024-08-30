@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-items = list()
+items = dict()
 
-with open("numbered-names-intl.txt") as f:
+with open("data/numbered-names-intl.txt") as f:
     while True:
         line = f.readline().strip()
         if not(line):
@@ -15,20 +15,29 @@ with open("numbered-names-intl.txt") as f:
         cat = line[1]
         txt = line[2]
 
-        if cat != "en":
-            continue
+        if cat not in items:
+            items[cat] = dict()
 
-        items.append( (num, txt) )
+        items[cat][num] = (num, txt)
 
+assert "en" in items
 
-lines = []
-for item in sorted(items, key=lambda x: x[0]):
-    num, txt = item
-    code = '/* %3d */\t"%s",' % (num, txt)
-    if num in [172, 299, 550]:
-        code += "\t// abandoned name"
-    lines.append(code)
+with open("src/fe-names.cpp", "w") as out:
 
-print("static std::vector<std::string> _names = {")
-print("\n".join(lines).rstrip(","))
-print("};")
+    print("std::map<std::string, std::map<size_t, std::string>> _names = {", file=out)
+
+    categories = [key for key in items.keys()]
+    for cat in items:
+        lines = []
+        print('\t{ "'+cat+'", {', file=out)
+        keys = sorted(items[cat].keys())
+        for key in keys:
+            num, txt = items[cat][key]
+            code = '\t/* %s */\t{%4d, "%s" },' % (cat, num, txt)
+            if num in [172, 299, 550]:
+                code += "\t// abandoned name"
+            lines.append(code)
+        print("\n".join(lines).rstrip(","), file=out)
+        print('\t} }' + ("" if cat==categories[-1] else ","), file=out)
+
+    print("};", file=out)

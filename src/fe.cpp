@@ -20,16 +20,18 @@
 
 #include "fe.h"
 
-namespace FlinnEngdahlGFZ {
+namespace RegionNaming {
 
 #include "fe-numbers.cpp"
 #include "fe-names.cpp"
 
 
 FlinnEngdahl::FlinnEngdahl()
-	: category("") {
-	names[""] = _names;
+	: category("en")
+{
+	names = _names;
 }
+
 
 bool FlinnEngdahl::read(const char *filename)
 {
@@ -43,7 +45,7 @@ bool FlinnEngdahl::read(const char *filename)
 //		return false;
 	}
 
-	while( ! ifile.eof()) {
+	while ( ! ifile.eof()) {
 		bool ignore = false;
 		string cat, num;
 
@@ -53,7 +55,6 @@ bool FlinnEngdahl::read(const char *filename)
 		if (num.empty())
 			ignore = true;
 
-		// getline is needed to continue with next line
 		string line;
 		getline(ifile, line);
 
@@ -64,11 +65,7 @@ bool FlinnEngdahl::read(const char *filename)
 
 		line.erase(0, line.find_first_not_of(" \n\r\t"));
 
-		if (names.find(cat) == names.end())
-			names[cat].reserve(1000);
-		if (n > names[cat].size())
-			names[cat].resize(n);
-		names[cat][n-1] = line;
+		names[cat][n] = line;
 	}
 
 	return true;
@@ -79,9 +76,31 @@ void FlinnEngdahl::setCategory(const char *c)
 {
 	if (names.find(c) == names.end())
 		throw std::invalid_argument(
-			std::string("invalid category: ")+c);
+			std::string("invalid category: ") + c);
 	
 	category = c;
+}
+
+
+const std::string& FlinnEngdahl::name(int num, const char *c) const
+{
+	Container::const_iterator it = names.find(c ? c : category.c_str());
+
+	if (it == names.end())
+		throw std::invalid_argument(std::string("invalid category: ") + (c ? c : category.c_str()));
+
+	std::map<size_t, std::string>::const_iterator it2 = it->second.find(num);
+	if (it2 == it->second.end())
+		throw std::invalid_argument(std::string("invalid region number: ") + std::to_string(num));
+	return it->second.at(num);
+}
+
+
+const std::string& FlinnEngdahl::name(
+	double lat, double lon,
+	const char *c) const
+{
+	return name(number(lat, lon), c);
 }
 
 
@@ -102,4 +121,22 @@ int FlinnEngdahl::number(double lat, double lon) const
 	return n;
 }
 
-} // namespace FlinnEngdahlGFZ
+
+namespace Testing {
+
+void many(size_t runs)
+{
+	FlinnEngdahl fe;
+
+	for (auto& item: _names) {
+		for (auto& i: item.second) {
+			for (size_t run=0; run<runs; run++) {
+				fe.name(i.first, item.first.c_str());
+			}
+		}
+	}
+}
+
+}
+
+} // namespace RegionNaming

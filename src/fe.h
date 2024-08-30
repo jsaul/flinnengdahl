@@ -16,16 +16,16 @@
 #ifndef FLINNENGDAHL_H_INCLUDED
 #define FLINNENGDAHL_H_INCLUDED
 
-#include<string>
-#include<vector>
-#include<map>
+#include <string>
+#include <vector>
+#include <map>
 
-namespace FlinnEngdahlGFZ {
+namespace RegionNaming {
 
-typedef std::vector<std::string> StringVector;
-typedef std::map<std::string, StringVector> StringVectorMap;
+typedef std::map<std::string, std::map<size_t, std::string>> Container;
 
-class FlinnEngdahl {
+class FlinnEngdahl
+{
 	public:
 		FlinnEngdahl();
 
@@ -35,25 +35,26 @@ class FlinnEngdahl {
 
 		int number(double lat, double lon) const;
 
-		const std::string& name(
-			int num,
-			const char *c=nullptr) const
-		{
-			return names.at(c ? c : category.c_str()).at(num-1);
-		}
+		const std::string& name(int num, const char *c=nullptr) const;
 
-		const std::string& name(
-			double lat, double lon,
-			const char *c=nullptr) const
-		{
-			return name(number(lat, lon), c);
-		}
+		const std::string& name(double lat, double lon, const char *c=nullptr) const;
 
 	private:
 		std::string category;
-		StringVectorMap names;
+		Container names;
 };
 
-} // namespace FlinnEngdahlGFZ
+
+extern Container _names;
+
+
+namespace Testing {
+
+// Many runs over all categories and all regions. Only for speed testing.
+void many(size_t runs=100000);
+
+} // namespace Testing
+
+} // namespace RegionNaming
 
 #endif

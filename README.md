@@ -62,6 +62,14 @@ a large software package is not feasible or if the translation feature is of int
 
 You get the picture.
 
+
+## Issues
+
+There are still some names that may create confusion or discomfort,
+like "Kashmir-India border region".  Ideas on how to resolve this
+(and at the same time keep the region numbering!) are welcome.
+
+
 ## Reference
 
 J.B. Young, B.W. Presgrave, H. Aichele, D.A. Wiens, E.A. Flinn (1996),
