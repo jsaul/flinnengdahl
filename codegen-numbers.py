@@ -1,6 +1,7 @@
 # This script uses SeisComP or ObsPy to get the region numbers for the lat-lon grid.
 
 import sys
+from contextlib import redirect_stdout
 
 try:
     import seiscomp.seismology
@@ -33,15 +34,19 @@ elif have_obspy:
     number = number_obspy
     print("using obspy", file=sys.stderr)
 else:
-    raise RuntimeError("Neiter ObsPy nor SeisComP found")
+    raise RuntimeError("Neither ObsPy nor SeisComP found")
 
-print("static short int _numbers[180][360] = {")
 
-for lat in range(-90, 90):
-    print("{\t\t// lat: %+3d ... %+3d" % (lat, lat+1))
-    for lon in range(-180, 180):
-        num = number(lat+0.5, lon+0.5)
+with open("src/fe-numbers.cpp", 'w') as f:
+    with redirect_stdout(f):
 
-        print("\t%d,\t// lat: %+3d ... %+3d   lon: %+4d ... %+4d " % (num, lat, lat+1, lon, lon+1))
-    print("},\t\t// lat: %+3d ... %+3d" % (lat, lat+1))
-print("};")
+        print("static short int _numbers[180][360] = {")
+
+        for lat in range(-90, 90):
+            print("{\t\t// lat: %+3d ... %+3d" % (lat, lat+1))
+            for lon in range(-180, 180):
+                num = number(lat+0.5, lon+0.5)
+
+                print("\t%d,\t// lat: %+3d ... %+3d   lon: %+4d ... %+4d" % (num, lat, lat+1, lon, lon+1))
+            print("},\t\t// lat: %+3d ... %+3d" % (lat, lat+1))
+        print("};")

@@ -171,7 +171,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* de */	{ 169, "Region Samoa-Inseln" },
 	/* de */	{ 170, "Samoa-Inseln" },
 	/* de */	{ 171, "südlich der Fidschi-Inseln" },
-	/* de */	{ 172, "westlich der Tonga-Inseln" },	// abandoned name
+	/* de */	{ 172, "westlich der Tonga-Inseln" },	// obsolete name
 	/* de */	{ 173, "Tonga-Inseln" },
 	/* de */	{ 174, "Region Tonga-Inseln" },
 	/* de */	{ 175, "südlich der Tonga-Inseln" },
@@ -298,7 +298,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* de */	{ 296, "Myanmar" },
 	/* de */	{ 297, "Myanmar-China Grenzregion" },
 	/* de */	{ 298, "nahe der Südküste von Myanmar" },
-	/* de */	{ 299, "Südostasien" },	// abandoned name
+	/* de */	{ 299, "Südostasien" },	// obsolete name
 	/* de */	{ 300, "Insel Hainan, China" },
 	/* de */	{ 301, "Südchinesisches Meer" },
 	/* de */	{ 302, "Ost-Kaschmir" },
@@ -549,7 +549,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* de */	{ 547, "Tschechien und Slowakei" },
 	/* de */	{ 548, "Polen" },
 	/* de */	{ 549, "Ungarn" },
-	/* de */	{ 550, "Nordwest-Afrika" },	// abandoned name
+	/* de */	{ 550, "Nordwest-Afrika" },	// obsolete name
 	/* de */	{ 551, "Süd-Algerien" },
 	/* de */	{ 552, "Libyen" },
 	/* de */	{ 553, "Ägypten" },
@@ -930,7 +930,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* en */	{ 169, "Samoa Islands region" },
 	/* en */	{ 170, "Samoa Islands" },
 	/* en */	{ 171, "south of Fiji Islands" },
-	/* en */	{ 172, "west of Tonga Islands" },	// abandoned name
+	/* en */	{ 172, "west of Tonga Islands" },	// obsolete name
 	/* en */	{ 173, "Tonga Islands" },
 	/* en */	{ 174, "Tonga Islands region" },
 	/* en */	{ 175, "south of Tonga Islands" },
@@ -1057,7 +1057,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* en */	{ 296, "Myanmar" },
 	/* en */	{ 297, "Myanmar-China border region" },
 	/* en */	{ 298, "near south coast of Myanmar" },
-	/* en */	{ 299, "Southeast Asia" },	// abandoned name
+	/* en */	{ 299, "Southeast Asia" },	// obsolete name
 	/* en */	{ 300, "Hainan Island, China" },
 	/* en */	{ 301, "South China Sea" },
 	/* en */	{ 302, "eastern Kashmir" },
@@ -1308,7 +1308,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* en */	{ 547, "Czech and Slovak Republics" },
 	/* en */	{ 548, "Poland" },
 	/* en */	{ 549, "Hungary" },
-	/* en */	{ 550, "Northwest Africa" },	// abandoned name
+	/* en */	{ 550, "Northwest Africa" },	// obsolete name
 	/* en */	{ 551, "southern Algeria" },
 	/* en */	{ 552, "Libya" },
 	/* en */	{ 553, "Egypt" },
@@ -1689,7 +1689,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* es */	{ 169, "región de las islas Samoa" },
 	/* es */	{ 170, "islas Samoa" },
 	/* es */	{ 171, "al sur de las islas Fiji" },
-	/* es */	{ 172, "al oeste de las islas Tonga" },	// abandoned name
+	/* es */	{ 172, "al oeste de las islas Tonga" },	// obsolete name
 	/* es */	{ 173, "islas Tonga" },
 	/* es */	{ 174, "región de las islas Tonga" },
 	/* es */	{ 175, "al sur de las islas Tonga" },
@@ -1816,7 +1816,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* es */	{ 296, "Myanmar" },
 	/* es */	{ 297, "región fronteriza entre Myanmar y China" },
 	/* es */	{ 298, "cerca de la costa sur de Myanmar" },
-	/* es */	{ 299, "Asia Sudoriental" },	// abandoned name
+	/* es */	{ 299, "Asia Sudoriental" },	// obsolete name
 	/* es */	{ 300, "isla de Hainan, China" },
 	/* es */	{ 301, "sur del mar de China" },
 	/* es */	{ 302, "este de Cachemira" },
@@ -2067,7 +2067,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* es */	{ 547, "República Checa y Eslovaquia" },
 	/* es */	{ 548, "Polonia" },
 	/* es */	{ 549, "Hungría" },
-	/* es */	{ 550, "noroeste de África" },	// abandoned name
+	/* es */	{ 550, "noroeste de África" },	// obsolete name
 	/* es */	{ 551, "sur de Argelia" },
 	/* es */	{ 552, "Liba" },
 	/* es */	{ 553, "Egipto" },

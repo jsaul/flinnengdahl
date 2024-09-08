@@ -1,4 +1,4 @@
 #!/bin/sh
 
-python codegen-numbers.py > src/fe-numbers.cpp
+python codegen-numbers.py
 python codegen-names.py

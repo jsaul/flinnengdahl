@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+obsolete_regions = [172, 299, 550]
+
+from contextlib import redirect_stdout
+
 items = dict()
 
 with open("data/numbered-names-intl.txt") as f:
@@ -11,33 +15,34 @@ with open("data/numbered-names-intl.txt") as f:
         if line[0] == "#":
             continue
         line = line.split(maxsplit=2)
-        num  = int(line[0])
-        cat = line[1]
-        txt = line[2]
+        number = int(line[0])
+        category = line[1]
+        name = line[2]
 
-        if cat not in items:
-            items[cat] = dict()
+        if category not in items:
+            items[category] = dict()
 
-        items[cat][num] = (num, txt)
+        items[category][number] = (number, name)
 
 assert "en" in items
 
-with open("src/fe-names.cpp", "w") as out:
+with open("src/fe-names.cpp", 'w') as out:
+    with redirect_stdout(out):
 
-    print("std::map<std::string, std::map<size_t, std::string>> _names = {", file=out)
+        print("std::map<std::string, std::map<size_t, std::string>> _names = {")
 
-    categories = [key for key in items.keys()]
-    for cat in items:
-        lines = []
-        print('\t{ "'+cat+'", {', file=out)
-        keys = sorted(items[cat].keys())
-        for key in keys:
-            num, txt = items[cat][key]
-            code = '\t/* %s */\t{%4d, "%s" },' % (cat, num, txt)
-            if num in [172, 299, 550]:
-                code += "\t// abandoned name"
-            lines.append(code)
-        print("\n".join(lines).rstrip(","), file=out)
-        print('\t} }' + ("" if cat==categories[-1] else ","), file=out)
+        categories = [category for category in items.keys()]
+        for category in items:
+            lines = []
+            print('\t{ "' + category + '", {')
+            keys = sorted(items[category].keys())
+            for key in keys:
+                number, name = items[category][key]
+                code = '\t/* %s */\t{%4d, "%s" },' % (category, number, name)
+                if number in obsolete_regions:
+                    code += "\t// obsolete name"
+                lines.append(code)
+            print("\n".join(lines).rstrip(","))
+            print('\t} }' + ("" if category==categories[-1] else ","))
 
-    print("};", file=out)
+        print("};")
