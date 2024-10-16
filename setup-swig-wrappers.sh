@@ -9,4 +9,5 @@ for item in flinnengdahl
 do
 	module="$item"
 	$SWIG -I$INCLUDE -o ${module}_wrap.cpp ${module}.i
+	mv ${module}.py ..
 done

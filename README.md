@@ -25,7 +25,7 @@ comments added where needed to support a certain naming (e.g. "Revillagigedo" or
 
 The codes are set up in a way that in theory allows defining new cells,
 provided they fit in the 1x1-degree raster. But please note that such
-modifications are then deviations from the "standard" Flinn-Engdahl
+modifications would be deviations from the "standard" Flinn-Engdahl
 region numbering and should not be called "Flinn-Engdahl regions" any more.
 
 ## Python
@@ -65,9 +65,10 @@ You get the picture.
 
 ## Issues
 
-There are still some names that may create confusion or discomfort,
-like "Kashmir-India border region".  Ideas on how to resolve this
-(and at the same time keep the region numbering!) are welcome.
+There are still some names that may create confusion or discomfort, like
+"Kashmir-India border region".  Ideas on how to resolve this (and at the same
+time keep the region numbering!) are welcome but probably outside the scope of
+this module.
 
 
 ## Reference

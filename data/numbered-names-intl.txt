@@ -481,7 +481,7 @@
 155 en Antarctic Peninsula
 155 es península Antártica
 156 de Südwest-Atlantik
-156 en Southwestern Atlantic Ocean
+156 en southwestern Atlantic Ocean
 156 es suroeste del océano Atlántico
 157 de Weddellmeer
 157 en Weddell Sea
@@ -988,7 +988,7 @@
 320 es región fronteriza entre Kirguistán y Xinjiang
 # https://de.wikipedia.org/wiki/Kirgisistan
 321 de Süd-Xinjiang, China
-321 en Southern Xinjiang, China
+321 en southern Xinjiang, China
 321 es sur de Xinjiang, China
 322 de Gansu, China
 322 en Gansu, China
@@ -1002,9 +1002,9 @@
 325 de Qinghai, China
 325 en Qinghai, China
 325 es Qinghai, China
-326 de Südwestl-Sibirien, Russland
+326 de Südwest-Sibirien, Russland
 326 en southwestern Siberia, Russia
-326 es Sudoeste de Siberia, Rusia
+326 es sudoeste de Siberia, Rusia
 327 de Region Baykalsee, Russland
 327 en Lake Baykal region, Russia
 327 es región del lago Baykal, Rusia
@@ -1021,7 +1021,7 @@
 331 en Kazakhstan-Xinjiang border region
 331 es región fronteriza entre Kazakhstan y Xinjiang
 332 de Nord-Xinjiang, China
-332 en Northern Xinjiang, China
+332 en northern Xinjiang, China
 332 es norte de Xinjiang, China
 333 de Russland-Mongolei Grenzregion
 333 en Russia-Mongolia border region
@@ -1317,6 +1317,7 @@
 427 de Mauritius, Reunion und Umgebung
 427 en Mauritius-Reunion region
 427 es región Mauritania y Réunion
+# https://de.wikipedia.org/wiki/S%C3%BCdwestindischer_R%C3%BCcken
 428 de Südwestindischer Rücken
 428 en Southwest Indian Ridge
 # https://es.wikipedia.org/wiki/Dorsal_Central_del_%C3%8Dndico

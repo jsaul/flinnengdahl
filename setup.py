@@ -1,26 +1,23 @@
-from distutils.core import setup
-from distutils.extension import Extension
-
-inc_d = [
-    'src'
-]
-
-ext = Extension(
-    '_flinnengdahl',
-    [
-        'src/flinnengdahl_wrap.cpp',
-        'src/fe.cpp'
-    ],
-    include_dirs=inc_d
-)
+from setuptools import setup, Extension
 
 setup(
     name='flinnengdahl',
-    ext_modules=[ext],
-    package_dir={'': 'src'},
-    packages=[''],
-    version='0.1.0',
+    version='1.0.2',
     author='Joachim Saul',
     description='Python/C++ module to compute Flinn-Engdahl regions',
     license='AGPLv3',
+    
+    ext_modules = [
+        Extension(
+            name='_flinnengdahl',
+            sources = [
+                'src/flinnengdahl_wrap.cpp',
+                'src/fe.cpp'
+            ],
+            include_dirs = [
+                'src'
+            ]
+)
+        ],
+    py_modules = ["flinnengdahl"],
 )
