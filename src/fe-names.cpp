@@ -162,7 +162,7 @@ std::map<std::string, std::map<size_t, std::string>> _names = {
 	/* de */	{ 160, "vor der Ostküste der Nordinsel, Neuseeland" },
 	/* de */	{ 161, "vor der Westküste der Südinsel, Neuseeland" },
 	/* de */	{ 162, "Südinsel, Neuseeland" },
-	/* de */	{ 163, "Cook Strait, Neuseeland" },
+	/* de */	{ 163, "Cookstraße, Neuseeland" },
 	/* de */	{ 164, "vor der Ostküste der Südinsel, Neuseeland" },
 	/* de */	{ 165, "nördlich der Macquarieinsel" },
 	/* de */	{ 166, "Aucklandinseln, Neuseeland und Umgebung" },

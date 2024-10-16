@@ -19,4 +19,8 @@ setup(
     ext_modules=[ext],
     package_dir={'': 'src'},
     packages=[''],
+    version='0.1.0',
+    author='Joachim Saul',
+    description='Python/C++ module to compute Flinn-Engdahl regions',
+    license='AGPLv3',
 )

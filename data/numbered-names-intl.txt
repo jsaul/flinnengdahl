@@ -501,7 +501,7 @@
 162 de Südinsel, Neuseeland
 162 en South Island, New Zealand
 162 es isla Sur, Nueva Zelanda
-163 de Cook Strait, Neuseeland
+163 de Cookstraße, Neuseeland
 163 en Cook Strait, New Zealand
 163 es Estrecho de Cook, Nueva Zelanda
 164 de vor der Ostküste der Südinsel, Neuseeland
