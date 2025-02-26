@@ -37,7 +37,7 @@ else:
     raise RuntimeError("Neither ObsPy nor SeisComP found")
 
 
-with open("src/fe-numbers.cpp", 'w') as f:
+with open("src/flinnengdahl/fe-numbers.cpp", 'w') as f:
     with redirect_stdout(f):
 
         print("static short int _numbers[180][360] = {")

@@ -1,23 +1,25 @@
-from setuptools import setup, Extension
+from setuptools import find_packages, setup, Extension
 
 setup(
     name='flinnengdahl',
-    version='1.0.2',
+    version='1.0.4',
     author='Joachim Saul',
     description='Python/C++ module to compute Flinn-Engdahl regions',
     license='AGPLv3',
-    
+
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
+
     ext_modules = [
         Extension(
-            name='_flinnengdahl',
+            name='flinnengdahl/_flinnengdahl',
             sources = [
-                'src/flinnengdahl_wrap.cpp',
-                'src/fe.cpp'
+                'src/flinnengdahl/flinnengdahl_wrap.cpp',
+                'src/flinnengdahl/fe.cpp'
             ],
             include_dirs = [
-                'src'
+                'src/flinnengdahl'
             ]
 )
         ],
-    py_modules = ["flinnengdahl"],
 )

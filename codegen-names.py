@@ -26,7 +26,7 @@ with open("data/numbered-names-intl.txt") as f:
 
 assert "en" in items
 
-with open("src/fe-names.cpp", 'w') as out:
+with open("src/flinnengdahl/fe-names.cpp", 'w') as out:
     with redirect_stdout(out):
 
         print("std::map<std::string, std::map<size_t, std::string>> _names = {")

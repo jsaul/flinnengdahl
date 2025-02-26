@@ -1,13 +1,15 @@
 #!/bin/sh -e
 
-INCLUDE=$(pwd)/src
-SWIG="swig -python -py3 -c++"
+SWIG="swig -python -c++"
 
 cd src
 
-for item in flinnengdahl
+for module in flinnengdahl
 do
-	module="$item"
-	$SWIG -I$INCLUDE -o ${module}_wrap.cpp ${module}.i
-	mv ${module}.py ..
+	cd $module
+
+	$SWIG -I. -o ${module}_wrap.cpp ${module}.i
+	mv ${module}.py __init__.py
+
+	cd ..
 done
