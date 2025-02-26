@@ -408,8 +408,8 @@
 131 de Provinz Tucuman, Argentinien
 131 en Tucuman Province, Argentina
 131 es Tucumán, Argentina
-132 de Santiago Del Estero Prov., Argentinien
-132 en Santiago Del Estero Prov., Argentina
+132 de Provinz Santiago del Estero, Argentinien
+132 en Santiago del Estero Province, Argentina
 132 es Santiago del Estero, Argentina
 133 de Nordost-Argentinien
 133 en northeastern Argentina
