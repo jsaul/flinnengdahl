@@ -1,8 +1,8 @@
 /***************************************************************************
- * Copyright (C) GFZ Potsdam                                               *
+ * Copyright (C) GFZ Helmholtz Centre for Geosciences                      *
  * All rights reserved.                                                    *
  *                                                                         *
- * Author: Joachim Saul (saul@gfz-potsdam.de)                              *
+ * Author: Joachim Saul (saul@gfz.de)                                      *
  *                                                                         *
  * GNU Affero General Public License Usage                                 *
  * This file may be used under the terms of the GNU Affero                 *
@@ -16,6 +16,7 @@
 #include <iostream>
 #include <fstream>
 #include <exception>
+#include <algorithm>
 #include <math.h>
 
 #include "fe.h"
@@ -27,36 +28,32 @@ namespace RegionNaming {
 
 
 FlinnEngdahl::FlinnEngdahl()
-	: category("en")
+	: language("en"), uppercase(false), names(_names)
 {
-	names = _names;
+	setLanguage(language.c_str());
 }
 
 
-bool FlinnEngdahl::read(const char *filename)
+bool FlinnEngdahl::read(const std::string &filename)
 {
-	using namespace std;
-
-	ifstream ifile(filename);
+	std::ifstream ifile(filename.c_str());
 
 	if ( ! ifile.good()) {
-		throw std::runtime_error(
-			std::string("failed to open ")+filename);
-//		return false;
+		throw std::runtime_error("failed to open " + filename);
 	}
 
 	while ( ! ifile.eof()) {
 		bool ignore = false;
-		string cat, num;
+		std::string lang, num;
 
-		ifile >> num >> cat;
+		ifile >> num >> lang;
 		if (num[0] == '#')
 			ignore = true;
 		if (num.empty())
 			ignore = true;
 
-		string line;
-		getline(ifile, line);
+		std::string line;
+		std::getline(ifile, line);
 
 		if (ignore)
 			continue;
@@ -65,42 +62,56 @@ bool FlinnEngdahl::read(const char *filename)
 
 		line.erase(0, line.find_first_not_of(" \n\r\t"));
 
-		names[cat][n] = line;
+		names[lang][n] = line;
 	}
 
 	return true;
 }
 
 
-void FlinnEngdahl::setCategory(const char *c)
+void FlinnEngdahl::setLanguage(const std::string &lang)
 {
-	if (names.find(c) == names.end())
-		throw std::invalid_argument(
-			std::string("invalid category: ") + c);
+	language = lang;
+	namesIterator = names.find(language);
+	if (namesIterator == names.end())
+		throw std::invalid_argument("invalid language: " + language);
 	
-	category = c;
 }
 
 
-const std::string& FlinnEngdahl::name(int num, const char *c) const
+void FlinnEngdahl::setCategory(const std::string &lang)
 {
-	Container::const_iterator it = names.find(c ? c : category.c_str());
-
-	if (it == names.end())
-		throw std::invalid_argument(std::string("invalid category: ") + (c ? c : category.c_str()));
-
-	std::map<size_t, std::string>::const_iterator it2 = it->second.find(num);
-	if (it2 == it->second.end())
-		throw std::invalid_argument(std::string("invalid region number: ") + std::to_string(num));
-	return it->second.at(num);
+	setLanguage(lang);
 }
 
 
-const std::string& FlinnEngdahl::name(
-	double lat, double lon,
-	const char *c) const
+void FlinnEngdahl::setUpperCase(bool choice)
 {
-	return name(number(lat, lon), c);
+	uppercase = choice;
+}
+
+
+std::string FlinnEngdahl::name(int num) const
+{
+	const NamesByNumber &namesByNumber = namesIterator->second;
+	auto it = namesByNumber.find(num);
+	if (it == namesByNumber.end())
+		throw std::invalid_argument("invalid region number: " + std::to_string(num));
+
+	if (uppercase) {
+		std::string result = namesByNumber.at(num);
+		// convert first character to upper case
+		std::transform(result.begin(), result.begin() + 1, result.begin(), toupper);
+		return result;
+	}
+
+	return namesByNumber.at(num);
+}
+
+
+std::string FlinnEngdahl::name(double lat, double lon) const
+{
+	return name(number(lat, lon));
 }
 
 
@@ -129,9 +140,11 @@ void many(size_t runs)
 	FlinnEngdahl fe;
 
 	for (auto& item: _names) {
+		const std::string language(item.first);
+		fe.setLanguage(language);
 		for (auto& i: item.second) {
-			for (size_t run=0; run<runs; run++) {
-				fe.name(i.first, item.first.c_str());
+			for (size_t run=0; run < runs; run++) {
+				fe.name(i.first);
 			}
 		}
 	}

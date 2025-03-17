@@ -10,24 +10,24 @@
 True
 >>> fe.name(lat, lon)
 'western Kazakhstan'
->>> fe.setCategory("de")
+>>> fe.setLanguage("de")
 >>> fe.name(lat, lon)
 'West-Kasachstan'
->>> fe.setCategory("es")
+>>> fe.setLanguage("es")
 >>> fe.name(lat, lon)
 'oeste de Kazakhstan'
->>> fe.setCategory("yz")
+>>> fe.setUpperCase(True)
+>>> fe.name(lat, lon)
+'Oeste de Kazakhstan'
+>>> fe.setLanguage("yz")
 Traceback (most recent call last):
     ...
-ValueError: invalid category: yz
->>> fe.name(100, "xy")
+ValueError: invalid language: yz
+>>> fe.setLanguage("de")
+>>> fe.name(1234)
 Traceback (most recent call last):
     ...
-ValueError: invalid category: xy
->>> fe.name(1000, "de")
-Traceback (most recent call last):
-    ...
-ValueError: invalid region number: 1000
+ValueError: invalid region number: 1234
 >>> fe.read("non existing file")
 Traceback (most recent call last):
     ...

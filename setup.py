@@ -2,7 +2,7 @@ from setuptools import find_packages, setup, Extension
 
 setup(
     name='flinnengdahl',
-    version='1.0.4',
+    version='1.1.0',
     author='Joachim Saul',
     description='Python/C++ module to compute Flinn-Engdahl regions',
     license='AGPLv3',

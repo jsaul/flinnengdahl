@@ -1,8 +1,8 @@
 /***************************************************************************
- * Copyright (C) GFZ Potsdam                                               *
+ * Copyright (C) GFZ Helmholtz Centre for Geosciences                      *
  * All rights reserved.                                                    *
  *                                                                         *
- * Author: Joachim Saul (saul@gfz-potsdam.de)                              *
+ * Author: Joachim Saul (saul@gfz.de)                                      *
  *                                                                         *
  * GNU Affero General Public License Usage                                 *
  * This file may be used under the terms of the GNU Affero                 *
@@ -17,31 +17,48 @@
 #define FLINNENGDAHL_H_INCLUDED
 
 #include <string>
-#include <vector>
 #include <map>
 
 namespace RegionNaming {
 
-typedef std::map<std::string, std::map<size_t, std::string>> Container;
+// If the numbers are guaranteed to be consecutive, implementation as a simple list
+// would be much more efficient. The map allows to add arbitrary 'local' numbers,
+// which would be a deviation from the 'official' F-E numbering but which we will
+// probably do at some point (e.g. western part of Dodecanese Islands).
+typedef std::map<size_t, std::string> NamesByNumber;
+typedef std::map<std::string, NamesByNumber> Container;
 
 class FlinnEngdahl
 {
 	public:
 		FlinnEngdahl();
 
-		bool read(const char *filename);
+		// Read a text file name with the region names
+		bool read(const std::string &filename);
 
-		void setCategory(const char *c);
+		// Select the output language
+		void setLanguage(const std::string &language);
 
-		int number(double lat, double lon) const;
+		// Obsolete; same as setLanguage
+		void setCategory(const std::string &language);
 
-		const std::string& name(int num, const char *c=nullptr) const;
+		// If true, the first letter of each returned region name will be upper case
+		void setUpperCase(bool choice=false);
 
-		const std::string& name(double lat, double lon, const char *c=nullptr) const;
+		// Get the region number by latitude and longitude
+		int number(double latitude, double longitude) const;
+
+		// Get the region name by region number
+		std::string name(int num) const;
+
+		// Get the region name by latitude and longitude
+		std::string name(double latitude, double longitude) const;
 
 	private:
-		std::string category;
+		std::string language;
+		bool uppercase;
 		Container names;
+		Container::iterator namesIterator;
 };
 
 
