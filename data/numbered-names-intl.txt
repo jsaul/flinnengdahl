@@ -15,36 +15,36 @@
 003 es mar de Bering
 003 tr Bering Denizi
 004 de Kommandeurinseln
+# https://en.wikipedia.org/wiki/Commander_Islands
+#004 en Komandorsky Islands region
 004 en Commander Islands region
 004 es región de las Islas del Comandante
 004 tr Komandır Adaları bölgesi
-# https://en.wikipedia.org/wiki/Commander_Islands
-#004 en Komandorsky Islands region
 005 de Nahe Inseln, Alëuten
 005 en Near Islands, Aleutian Islands
+# https://es.wikipedia.org/wiki/Islas_Near
 005 es Islas Near, Islas Aleutianas
 005 tr Near Adaları, Aleut Adaları
-# https://es.wikipedia.org/wiki/Islas_Near
+# https://de.wikipedia.org/wiki/Rat_Islands
+# Ratteninseln oder Rat Islands
 006 de Rat Islands, Alëuten
 006 en Rat Islands, Aleutian Islands
 006 es Islas Rat, Islas Aleutianas
 006 tr Rat Adaları, Aleut Adaları
-# https://de.wikipedia.org/wiki/Rat_Islands
-# Ratteninseln oder Rat Islands
 007 de Andreanof-Inseln, Alëuten
 007 en Andreanof Islands, Aleutian Islands
 007 es islas Andreanof, Islas Aleutianas
 007 tr Andreanof Adaları, Aleut Adaları
 008 de Pribilof-Inseln, Alaska, und Umgebung
 008 en Pribilof Islands, Alaska region
+# https://es.wikipedia.org/wiki/Islas_Pribilof
 008 es región de las islas Pribilof, Alaska
 008 tr Pribilof Adaları, Alaska bölgesi
-# https://es.wikipedia.org/wiki/Islas_Pribilof
+# https://de.wikipedia.org/wiki/Fox_Islands_(Alaska)
 009 de Fox Islands, Alëuten
 009 en Fox Islands, Aleutian Islands
 009 es islas Fox, islas Aleutianas
 009 tr Fox Adaları, Aleut Adaları
-# https://de.wikipedia.org/wiki/Fox_Islands_(Alaska)
 010 de Unimak-Insel, Alaska, und Umgebung
 010 en Unimak Island region, Alaska
 010 es región de la isla Unimak, Alaska
@@ -77,12 +77,12 @@
 017 en south of Alaska
 017 es al sur de Alaska
 017 tr Alaska'nın güneyinde
-# https://en.wikipedia.org/wiki/Yukon
 018 de südlicher Yukon, Kanada
+# https://en.wikipedia.org/wiki/Yukon
+#018 en southern Yukon, Canada
 018 en southern Yukon Territory, Canada
 018 es sur del Yukón, Canadá
 018 tr güney Yukon Bölgesi, Kanada
-#018 en southern Yukon, Canada
 019 de Südost-Alaska
 019 en southeastern Alaska
 019 es sureste de Alaska
@@ -96,11 +96,11 @@
 021 es al oeste de la isla de Vancouver
 021 tr Vancouver Adası'nın batısında
 022 de Haida-Gwaii und Umgebung
+# obsolete:
+#022 en Queen Charlotte Islands region
 022 en Haida Gwaii region
 022 es región de Haida Gwaii
 022 tr Haida Gwaii bölgesi
-# obsolete:
-#022 en Queen Charlotte Islands region
 023 de Britisch-Kolumbien, Kanada
 023 en British Columbia, Canada
 023 es Columbia Británica, Canadá
@@ -223,11 +223,11 @@
 052 tr orta Meksika kıyısı yakınları
 # https://de.wikipedia.org/wiki/Revillagigedo-Inseln
 053 de Revillagigedo-Inseln
+# https://en.wikipedia.org/wiki/Revillagigedo_Islands
 053 en Revillagigedo Islands region
+# https://es.wikipedia.org/wiki/Archipi%C3%A9lago_de_Revillagigedo
 053 es región de las islas Revillagigedo
 053 tr Revillagigedo Adaları bölgesi
-# https://en.wikipedia.org/wiki/Revillagigedo_Islands
-# https://es.wikipedia.org/wiki/Archipi%C3%A9lago_de_Revillagigedo
 054 de vor der Küste von Jalisco, Mexiko
 054 en off coast of Jalisco, Mexico
 054 es frente a las costas de Jalisco, México
@@ -780,16 +780,16 @@
 191 en north of Solomon Islands
 191 es al norte de las islas Solomon
 191 tr Solomon Adaları'nın kuzeyinde
+# https://de.wikipedia.org/wiki/Neubritannien
 192 de Region Neubritannien, Papua Neuguinea
 192 en New Britain region, Papua New Guinea
 192 es región de Nueva Bretaña, Papúa Nueva Guinea
 192 tr Yeni Britanya bölgesi, Papua Yeni Gine
-# https://de.wikipedia.org/wiki/Neubritannien
-193 de Salomon-Inseln
+# https://de.wikipedia.org/wiki/Salomonen
+193 de Salomonen
 193 en Solomon Islands
 193 es islas Solomon
 193 tr Solomon Adaları
-# https://de.wikipedia.org/wiki/Salomonen
 194 de D'Entrecasteaux-Inseln und Umgebung
 194 en D'Entrecasteaux Islands region
 194 es región de las islas D'Entrecasteaux
@@ -799,16 +799,16 @@
 195 es al sur de las islas Solomon
 195 tr Solomon Adaları'nın güneyinde
 196 de Region Westpapua, Indonesien
+#196 en Irian Jaya region, Indonesia
+# nice: http://agung-sabtaji.blogspot.com/2012/02/flinn-engdahl-region-di-indonesia.html
 196 en West Papua region, Indonesia
 196 es región de Nueva Guinea Occidental, Indonesia
 196 tr Batı Papua bölgesi, Endonezya
-#196 en Irian Jaya region, Indonesia
-# nice: http://agung-sabtaji.blogspot.com/2012/02/flinn-engdahl-region-di-indonesia.html
 197 de nahe der Nordküste von Westpapua, Indonesien
+#197 en near north coast of Irian Jaya
 197 en near north coast of West Papua, Indonesia
 197 es cerca de la costa norte de Nueva Guinea Occidental, Indonesia
 197 tr Batı Papua, Endonezya'nın kuzey kıyısı yakınları
-#197 en near north coast of Irian Jaya
 198 de Ninigo-Inseln und Umgebung, Papua-Neuguinea
 198 en Ninigo Islands region, Papua New Guinea
 198 es región de las islas Ninigo, Papúa Nueva Guinea
@@ -821,13 +821,13 @@
 200 en near north coast of New Guinea, Papua New Guinea
 200 es cerca de la costa norte de Nueva Guinea, Papúa Nueva Guinea
 200 tr Yeni Gine, Papua Yeni Gine'nın kuzey kıyısı yakınları
+#201 en Irian Jaya, Indonesia
+# https://de.wikipedia.org/wiki/Papua_(Provinz)
+# Irian Jaya heißt jetzt Papua!
 201 de Westpapua, Indonesien
 201 en West Papua, Indonesia
 201 es Nueva Guinea Occidental, Indonesia
 201 tr Batı Papua, Endonezya
-#201 en Irian Jaya, Indonesia
-# https://de.wikipedia.org/wiki/Papua_(Provinz)
-# Irian Jaya heißt jetzt Papua!
 202 de Papua-Neuguinea
 202 en New Guinea, Papua New Guinea
 202 es Nueva Guinea, Papúa Nueva Guinea
@@ -841,19 +841,19 @@
 204 es región de las islas Aru, Indonesia
 204 tr Aru Adaları bölgesi, Endonezya
 205 de nahe der Südküste von Westpapua, Indonesien
+#205 en near south coast of Irian Jaya
 205 en near south coast of West Papua, Indonesia
 205 es cerca de la costa sur de Nueva Guinea Occidental, Indonesia
 205 tr Batı Papua, Endonezya'nın güney kıyısı yakınları
-#205 en near south coast of Irian Jaya
 206 de nahe der Südküste von Neuguinea, Papua-Neuguinea
 206 en near south coast of New Guinea, Papua New Guinea
 206 es cerca de la costa sur de Nueva Guinea, Papúa Nueva Guinea
 206 tr Yeni Gine, Papua Yeni Gine'nın güney kıyısı yakınları
 207 de Papua-Neuguinea und Umgebung
+#207 en Papua New Guinea region
 207 en eastern New Guinea region, Papua New Guinea
 207 es este de la región de Nueva Guinea, Papúa Nueva Guinea
 207 tr doğu Yeni Gine bölgesi, Papua Yeni Gine
-#207 en Papua New Guinea region
 208 de Arafurasee
 208 en Arafura Sea
 208 es mar de Arafura
@@ -1274,11 +1274,11 @@
 312 en Bhutan
 312 es Bután
 312 tr Bhutan
+# https://de.wikipedia.org/wiki/Autonomes_Gebiet_Tibet
 313 de östliche Tibet-Indien Grenzregion
 313 en eastern Xizang-India border region
 313 es este de la región fronteriza entre Xizang y la India
 313 tr doğu Xizang-Hindistan sınır bölgesi
-# https://de.wikipedia.org/wiki/Autonomes_Gebiet_Tibet
 314 de Süd-Indien
 314 en southern India
 314 es sur de la India
@@ -1303,11 +1303,11 @@
 319 en Bay of Bengal
 319 es bahía de Bengal
 319 tr Bengal Körfezi
+# https://de.wikipedia.org/wiki/Kirgisistan
 320 de Kirgisistan-Xinjiang Grenzregion
 320 en Kyrgyzstan-Xinjiang border region
 320 es región fronteriza entre Kirguistán y Xinjiang
 320 tr Kırgızistan-Xinjiang sınır bölgesi
-# https://de.wikipedia.org/wiki/Kirgisistan
 321 de Süd-Xinjiang, China
 321 en southern Xinjiang, China
 321 es sur de Xinjiang, China
@@ -1488,13 +1488,13 @@
 365 en Aegean Sea
 365 es mar Egeo
 365 tr Ege Denizi
+# On Wikipedia, 'Turkey' has not yet been renamed to 'Türkiye'
+# See also https://en.wikipedia.org/wiki/Talk:Turkey/Archive_39#Requested_move_15_February_2024
+# We follow Wikipedia.
 366 de Türkei
 366 en Turkey
 366 es Turquía
 366 tr Türkiye
-# On Wikipedia, 'Turkey' has not yet been renamed to 'Türkiye'
-# See also https://en.wikipedia.org/wiki/Talk:Turkey/Archive_39#Requested_move_15_February_2024
-# We follow Wikipedia.
 367 de Georgien-Armenien-Türkei Grenzregion
 367 en Georgia-Armenia-Turkey border region
 367 es región fronteriza entre Georgia, Armenia y Turquía
@@ -1503,11 +1503,11 @@
 368 en southern Greece
 368 es sur de Grecia
 368 tr güney Yunanistan
+# https://de.wikipedia.org/wiki/Liste_der_Dodekanes-Inseln
 369 de Dodekanes-Inseln, Griechenland
 369 en Dodecanese Islands, Greece
 369 es islas Dodecanese, Grecia
 369 tr Dodecanese Adaları, Yunanistan
-# https://de.wikipedia.org/wiki/Liste_der_Dodekanes-Inseln
 370 de Kreta, Griechenland
 370 en Crete, Greece
 370 es Creta, Grecia
@@ -1552,11 +1552,11 @@
 380 en Corsica, France
 380 es Corsica, Francia
 380 tr Corsica, Fransa
+# https://de.wikipedia.org/wiki/Mittelitalien
 381 de Mittelitalien
 381 en Central Italy
 381 es centro de Italia
 381 tr orta İtalya
-# https://de.wikipedia.org/wiki/Mittelitalien
 382 de Adriatisches Meer
 382 en Adriatic Sea
 382 es mar Adriático
@@ -1637,11 +1637,11 @@
 401 en near coast of Libya
 401 es cerca de la Costa de Libia
 401 tr Libya kıyısı yakınları
+# https://de.wikipedia.org/wiki/Nordatlantik
 402 de Nordatlantik
 402 en north Atlantic Ocean
 402 es norte del océano Atlántico
 402 tr north Atlantik Okyanusu
-# https://de.wikipedia.org/wiki/Nordatlantik
 403 de nördlicher Mittelatlantischer Rücken
 403 en northern Mid-Atlantic Ridge
 403 es norte de la dorsal mesoatlántica
@@ -1666,11 +1666,11 @@
 408 en Ascension Island region
 408 es región de la isla Ascensión
 408 tr Ascension Adası bölgesi
+# https://de.wikipedia.org/wiki/S%C3%BCdatlantik
 409 de Südatlantik
 409 en South Atlantic Ocean
 409 es sur del océano Atlántico
 409 tr South Atlantik Okyanusu
-# https://de.wikipedia.org/wiki/S%C3%BCdatlantik
 410 de südlicher Mittelatlantischer Rücken
 410 en southern Mid-Atlantic Ridge
 410 es sur de la dorsal mesoatlántica
@@ -1711,16 +1711,16 @@
 419 en northeastern Somalia
 419 es noreste de Somalía
 419 tr kuzeydoğu Somali
+# nicht Nordindischer Ozean!
 420 de nördlicher Indischer Ozean
 420 en North Indian Ocean
 420 es norte del océano Índico
 420 tr North Hint Okyanusu
-# nicht Nordindischer Ozean!
 421 de Carlsberg-Rücken
 421 en Carlsberg Ridge
+# https://es.wikipedia.org/wiki/Dorsal_ar%C3%A1bigo-%C3%ADndica
 421 es dorsal Arábigo-Índica
 421 tr Carlsberg Sırtı
-# https://es.wikipedia.org/wiki/Dorsal_ar%C3%A1bigo-%C3%ADndica
 422 de Malediven und Umgebung
 422 en Maldive Islands region
 422 es región de las islas Maldivas
@@ -1750,12 +1750,11 @@
 428 en Southwest Indian Ridge
 428 es suroeste de la Dorsal Central del Índico
 428 tr Southwest Hint Sırtı
-# https://es.wikipedia.org/wiki/Dorsal_Central_del_%C3%8Dndico
 429 de Mittelindischer Rücken
 429 en Mid-Indian Ridge
+# https://es.wikipedia.org/wiki/Dorsal_Central_del_%C3%8Dndico
 429 es Dorsal Central del Índico
 429 tr Mid-Hint Sırtı
-# https://es.wikipedia.org/wiki/Dorsal_Central_del_%C3%8Dndico
 430 de südlich von Afrika
 430 en south of Africa
 430 es al sur de África
@@ -1772,17 +1771,17 @@
 433 en Kerguelen Islands region
 433 es región de las islas Kerguelen
 433 tr Kerguelen Adaları bölgesi
+# keine dt. Übersetzung
 434 de Broken Ridge
 434 en Broken Ridge
 434 es dorsal de Broken
 434 tr Broken Sırtı
-# keine dt. Übersetzung
 # https://de.wikipedia.org/wiki/S%C3%BCdostindischer_R%C3%BCcken
 435 de Südostindischer Rücken
 435 en Southeast Indian Ridge
+#435 es Sudoeste de la cordillera Índica
 435 es dorsal sudoriental del Índico
 435 tr Southeast Hint Sırtı
-#435 es Sudoeste de la cordillera Índica
 436 de südliches Kerguelenplateau
 436 en southern Kerguelen Plateau
 436 es sur de la Meseta Kerguelen
@@ -1799,11 +1798,12 @@
 439 en Manitoba, Canada
 439 es Manitoba, Canadá
 439 tr Manitoba, Kanada
+# keine dt. Übersetzung, evtl. Hudson-Bucht
+# https://de.wikipedia.org/wiki/Hudson_Bay
 440 de Hudson Bay
 440 en Hudson Bay
 440 es bahía de Hudson
 440 tr Hudson Körfezi
-# keine dt. Übersetzung, evtl. Hudson-Bucht
 441 de Ontario, Kanada
 441 en Ontario, Canada
 441 es Ontario, Canadá
@@ -1812,7 +1812,6 @@
 442 en Hudson Strait region, Canada
 442 es región del estrecho de Hudson, Canadá
 442 tr Hudson Strait bölgesi, Kanada
-# https://de.wikipedia.org/wiki/Hudson_Bay
 443 de Nord-Quebec, Kanada
 443 en northern Quebec, Canada
 443 es norte de Quebec, Canadá
@@ -2029,11 +2028,11 @@
 496 en New Mexico
 496 es Nuevo México
 496 tr Yeni Meksika
+# https://de.wikipedia.org/wiki/Texas_Panhandle
 497 de Texas Panhandle und Umgebung
 497 en Texas Panhandle region
 497 es región de Texas Panhandle
 497 tr Teksas Panhandle bölgesi
-# https://de.wikipedia.org/wiki/Texas_Panhandle
 498 de West-Texas
 498 en western Texas
 498 es oeste de Texas
@@ -2166,12 +2165,12 @@
 530 en Suriname
 530 es Suriname
 530 tr Suriname
+# https://de.france.fr/de/franzosisch-guyana
 531 de Französisch-Guyana
+# https://en.wikipedia.org/wiki/French_Guiana
 531 en French Guiana
 531 es Guyana Francesa
 531 tr French Guiana
-# https://de.france.fr/de/franzosisch-guyana
-# https://en.wikipedia.org/wiki/French_Guiana
 532 de Irland
 532 en Ireland
 532 es Irlanda
@@ -2233,10 +2232,10 @@
 546 es Austria
 546 tr Avusturya
 547 de Tschechien und Slowakei
+# https://en.wikipedia.org/wiki/Talk:Czech_Republic
 547 en Czech and Slovak Republics
 547 es República Checa y Eslovaquia
 547 tr Çek and Slovak Republics
-# https://en.wikipedia.org/wiki/Talk:Czech_Republic
 548 de Polen
 548 en Poland
 548 es Polonia
@@ -2521,17 +2520,17 @@
 618 en Gilbert Islands, Kiribati region
 618 es región de las Islas Gilbert, Kiribati
 618 tr Gilbert Adaları, Kiribati bölgesi
+# https://de.wikipedia.org/wiki/Johnston-Atoll
 619 de Johnston-Atoll und Umgebung
 619 en Johnston Island region
+# https://es.wikipedia.org/wiki/Atol%C3%B3n_Johnston
 619 es región del Atolón Johnston
 619 tr Johnston Adası bölgesi
-# https://es.wikipedia.org/wiki/Atol%C3%B3n_Johnston
-# https://de.wikipedia.org/wiki/Johnston-Atoll
 620 de Linieninseln, Region Kiribati
 620 en Line Islands, Kiribati region
+# https://es.wikipedia.org/wiki/Islas_de_la_L%C3%ADnea
 620 es región de las islas de la Línea, Kiribati
 620 tr Line Adaları, Kiribati bölgesi
-# https://es.wikipedia.org/wiki/Islas_de_la_L%C3%ADnea
 621 de Palmyra-Inselgebiet, Kiribati
 621 en Palmyra Island region, Kiribati
 621 es región del Atolón Palmyra, Kiribati
@@ -2562,9 +2561,9 @@
 627 tr Cook Adaları bölgesi
 628 de Gesellschaftsinseln und Umgebung
 628 en Society Islands region
+# https://es.wikipedia.org/wiki/Islas_de_la_Sociedad
 628 es región de las islas de la Sociedad
 628 tr Society Adaları bölgesi
-# https://es.wikipedia.org/wiki/Islas_de_la_Sociedad
 629 de Tubuai-Inseln
 629 en Tubuai Islands region
 629 es región de las Islas Tubuai
@@ -2667,9 +2666,9 @@
 653 tr orta Sibirya, Rusya kıyısı yakınları
 654 de östlich von Sewernaja-Semlja
 654 en east of Severnaya Zemlya
+# https://es.wikipedia.org/wiki/Tierra_del_Norte
 654 es al este de Tierra del Norte, Rusia
 654 tr Severnaya Zemlya'nın doğusunda
-# https://es.wikipedia.org/wiki/Tierra_del_Norte
 655 de Laptevsee
 655 en Laptev Sea
 655 es mar de Laptev
@@ -2728,9 +2727,9 @@
 668 tr New Siberian Adaları, Rusya
 669 de Ostsibirische See
 669 en east Siberian Sea
+# https://es.wikipedia.org/wiki/Mar_de_Siberia_Oriental
 669 es mar de Siberia Oriental
 669 tr east Siberian Denizi
-# https://es.wikipedia.org/wiki/Mar_de_Siberia_Oriental
 670 de nahe der Nordküste von Ostsibirien
 670 en near north coast of eastern Siberia
 670 es cerca de la costa norte del este de Siberia
@@ -2760,10 +2759,10 @@
 676 es norte de Alaska
 676 tr kuzey Alaska
 677 de nördlicher Yukon, Kanada
+#677 en northern Yukon, Canada
 677 en northern Yukon Territory, Canada
 677 es norte del Yukon, Canadá
 677 tr kuzey Yukon Bölgesi, Kanada
-#677 en northern Yukon, Canada
 678 de Königin-Elisabeth-Inseln, Kanada
 678 en Queen Elizabeth Islands, Canada
 678 es islas de la Reina Elizabeth, Canadá
@@ -2790,9 +2789,9 @@
 683 tr southeast Central Pasifik Okyanusu
 684 de südlicher Ostpazifischer Rücken
 684 en southern East Pacific Rise
+# https://es.wikipedia.org/wiki/Dorsal_del_Pac%C3%ADfico_Oriental
 684 es sur de la dorsal del Pacífico Oriental
 684 tr güney East Pasifik Yükselimi
-# https://es.wikipedia.org/wiki/Dorsal_del_Pac%C3%ADfico_Oriental
 685 de Osterinsel und Umgebung
 685 en Easter Island region
 685 es región de la isla de Pascua
@@ -2819,9 +2818,9 @@
 690 tr Chatham Adaları'nın güneyinde
 691 de Pazifisch-Antarktischer Rücken
 691 en Pacific-Antarctic Ridge
+# https://es.wikipedia.org/wiki/Dorsal_Pac%C3%ADfico-Ant%C3%A1rtica
 691 es dorsal Pacífico-Antártica
 691 tr Pasifik-Antartika Sırtı
-# https://es.wikipedia.org/wiki/Dorsal_Pac%C3%ADfico-Ant%C3%A1rtica
 692 de südlicher Pazifik
 692 en southern Pacific Ocean
 692 es sur del océano Pacífico
@@ -2832,9 +2831,9 @@
 693 tr east-central Pasifik Okyanusu
 694 de zentraler Ostpazifischer Rücken
 694 en central East Pacific Rise
+# https://es.wikipedia.org/wiki/Dorsal_del_Pac%C3%ADfico_Oriental
 694 es centro de la dorsal del Pacífico Oriental
 694 tr orta East Pasifik Yükselimi
-# https://es.wikipedia.org/wiki/Dorsal_del_Pac%C3%ADfico_Oriental
 695 de westlich der Galapagos-Inseln
 695 en west of Galapagos Islands
 695 es al oeste de las Islas Galápagos
@@ -2863,11 +2862,11 @@
 701 en west of Macquarie Island
 701 es al oeste de las Islas Macquarie
 701 tr Macquarie Adası'nın batısında
+# https://de.wikipedia.org/wiki/Balleny-Inseln
 702 de Balleny-Inseln und Umgebung
 702 en Balleny Islands region
 702 es región de las Islas Balleny
 702 tr Balleny Adaları bölgesi
-# https://de.wikipedia.org/wiki/Balleny-Inseln
 703 de Andamanen, Indien
 703 en Andaman Islands, India region
 703 es región de las Islas Andaman, India
@@ -2975,9 +2974,9 @@
 728 tr Ross Denizi
 729 de Antarctica
 729 en Antarctica
+# https://es.wikipedia.org/wiki/Ant%C3%A1rtida
 729 es Antártida
 729 tr Antarctica
-# https://es.wikipedia.org/wiki/Ant%C3%A1rtida
 730 de nördlicher Ostpazifischer Rücken
 730 en northern East Pacific Rise
 730 es al norte de la dorsal del Pacífico Oriental
@@ -2988,9 +2987,9 @@
 731 tr Honduras'nın kuzeyinde
 732 de östlich der südlichen Sandwich-Inseln
 732 en east of South Sandwich Islands
+# https://es.wikipedia.org/wiki/Islas_Georgias_del_Sur_y_Sandwich_del_Sur
 732 es al este de las Islas Sandwich del Sur
 732 tr South Sandwich Adaları'nın doğusunda
-# https://es.wikipedia.org/wiki/Islas_Georgias_del_Sur_y_Sandwich_del_Sur
 733 de Thailand
 733 en Thailand
 733 es Tailandia
@@ -3035,9 +3034,9 @@
 # https://de.wikipedia.org/wiki/Westsahara
 743 de Westsahara
 743 en Western Sahara
+# https://es.wikipedia.org/wiki/Sahara_Occidental
 743 es Sahara Occidental
 743 tr batı Sahara
-# https://es.wikipedia.org/wiki/Sahara_Occidental
 744 de Mauretanien
 744 en Mauritania
 744 es Mauritania
