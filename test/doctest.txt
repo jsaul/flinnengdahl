@@ -24,6 +24,8 @@ Traceback (most recent call last):
     ...
 ValueError: invalid language: yz
 >>> fe.setLanguage("de")
+>>> sorted(fe.languages())
+['de', 'en', 'es', 'fr', 'tr']
 >>> fe.name(1234)
 Traceback (most recent call last):
     ...
@@ -32,3 +34,26 @@ ValueError: invalid region number: 1234
 Traceback (most recent call last):
     ...
 RuntimeError: failed to open non existing file
+>>> import sys
+>>> import flinnengdahl.app
+>>> sys.argv = ["test", "--latlon", "50,10", "--name"]
+>>> flinnengdahl.app.get_region()
+Germany
+>>> sys.argv = ["test", "--latlon", "50,10", "--language", "en", "--name", "--number"]
+>>> flinnengdahl.app.get_region()
+543 Germany
+>>> sys.argv = ["test", "--latlon", "50,10", "--language", "de", "--name", "--number"]
+>>> flinnengdahl.app.get_region()
+543 Deutschland
+>>> sys.argv = ["test", "--latlon", "50,10", "--language", "es", "--name", "--number"]
+>>> flinnengdahl.app.get_region()
+543 Alemania
+>>> sys.argv = ["test", "--latlon", "50,10", "--language", "tr", "--name", "--number"]
+>>> flinnengdahl.app.get_region()
+543 Almanya
+>>> sys.argv = ["test", "--latlon", "50,10", "--language", "fr", "--name", "--number"]
+>>> flinnengdahl.app.get_region()
+543 Allemagne
+>>> sys.argv = ["test", "--latlon", "50,10", "--number"]
+>>> flinnengdahl.app.get_region()
+543

@@ -1,14 +1,14 @@
 from setuptools import find_packages, setup, Extension
 
 setup(
-    name='flinnengdahl',
-    version='1.1.0',
-    author='Joachim Saul',
-    description='Python/C++ module to compute Flinn-Engdahl regions',
-    license='AGPLv3',
+    name = 'flinnengdahl',
+    version = '1.1.2',
+    author = 'Joachim Saul',
+    description = 'Python/C++ module to compute Flinn-Engdahl regions',
+    license = 'AGPLv3',
 
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
+    packages = find_packages('src'),
+    package_dir = {'': 'src'},
 
     ext_modules = [
         Extension(

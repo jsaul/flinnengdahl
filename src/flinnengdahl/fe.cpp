@@ -91,6 +91,17 @@ void FlinnEngdahl::setUpperCase(bool choice)
 }
 
 
+std::vector<std::string> FlinnEngdahl::languages() const
+{
+	std::vector<std::string> lang;
+
+	for (const auto &item : names)
+		lang.push_back(item.first);
+
+	return lang;
+}
+
+
 std::string FlinnEngdahl::name(int num) const
 {
 	const NamesByNumber &namesByNumber = namesIterator->second;

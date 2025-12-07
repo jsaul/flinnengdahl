@@ -349,6 +349,9 @@ class FlinnEngdahl(object):
     def setUpperCase(self, choice=False):
         return _flinnengdahl.FlinnEngdahl_setUpperCase(self, choice)
 
+    def languages(self):
+        return _flinnengdahl.FlinnEngdahl_languages(self)
+
     def number(self, latitude, longitude):
         return _flinnengdahl.FlinnEngdahl_number(self, latitude, longitude)
 

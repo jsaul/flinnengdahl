@@ -17,6 +17,7 @@
 #define FLINNENGDAHL_H_INCLUDED
 
 #include <string>
+#include <vector>
 #include <map>
 
 namespace RegionNaming {
@@ -44,6 +45,9 @@ class FlinnEngdahl
 
 		// If true, the first letter of each returned region name will be upper case
 		void setUpperCase(bool choice=false);
+
+		// Return a vector of the available language codes
+		std::vector<std::string> languages() const;
 
 		// Get the region number by latitude and longitude
 		int number(double latitude, double longitude) const;

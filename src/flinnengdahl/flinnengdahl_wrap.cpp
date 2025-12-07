@@ -10032,6 +10032,49 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_FlinnEngdahl_languages(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  RegionNaming::FlinnEngdahl *arg1 = (RegionNaming::FlinnEngdahl *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string,std::allocator< std::string > > result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_RegionNaming__FlinnEngdahl, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FlinnEngdahl_languages" "', argument " "1"" of type '" "RegionNaming::FlinnEngdahl const *""'"); 
+  }
+  arg1 = reinterpret_cast< RegionNaming::FlinnEngdahl * >(argp1);
+  {
+    try {
+      result = ((RegionNaming::FlinnEngdahl const *)arg1)->languages();
+    }
+    catch ( const std::out_of_range &e) {
+      SWIG_exception(SWIG_ValueError, e.what());
+    }
+    catch ( const std::invalid_argument &e) {
+      SWIG_exception(SWIG_ValueError, e.what());
+    }
+    catch ( const std::runtime_error &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch ( const std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch ( ... ) {
+      SWIG_exception(SWIG_UnknownError, "C++ anonymous exception");
+    }
+  }
+  resultobj = swig::from(static_cast< std::vector< std::string,std::allocator< std::string > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_FlinnEngdahl_number(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   RegionNaming::FlinnEngdahl *arg1 = (RegionNaming::FlinnEngdahl *) 0 ;
@@ -10528,6 +10571,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "FlinnEngdahl_setLanguage", _wrap_FlinnEngdahl_setLanguage, METH_VARARGS, NULL},
 	 { "FlinnEngdahl_setCategory", _wrap_FlinnEngdahl_setCategory, METH_VARARGS, NULL},
 	 { "FlinnEngdahl_setUpperCase", _wrap_FlinnEngdahl_setUpperCase, METH_VARARGS, NULL},
+	 { "FlinnEngdahl_languages", _wrap_FlinnEngdahl_languages, METH_O, NULL},
 	 { "FlinnEngdahl_number", _wrap_FlinnEngdahl_number, METH_VARARGS, NULL},
 	 { "FlinnEngdahl_name", _wrap_FlinnEngdahl_name, METH_VARARGS, NULL},
 	 { "delete_FlinnEngdahl", _wrap_delete_FlinnEngdahl, METH_O, NULL},
